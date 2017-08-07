@@ -34,11 +34,6 @@ const SlideC = styled.div`
       width: 100%;
       height: 100vh;
   }
-  .swiper-slide {
-      background-size: cover;
-      background-position: center center;
-      background-color: #000000;
-  }
   .swiper-gradient {
       height: 100%;
       position: absolute;
@@ -68,6 +63,14 @@ const SlideC = styled.div`
           display: none;
       }
   `}
+`
+
+const Slide = styled.div`
+      background-image: url(${props => props.bg});
+      background-image: image("${props => props.bgw}" format('webp'), "${props => props.bg}");
+      background-size: cover;
+      background-position: center center;
+      background-color: #000000;
 `
 
 class Slider extends Component {
@@ -111,8 +114,10 @@ class Slider extends Component {
   }
   render() {
     let Slides = this.state.slides.map((dCase, i) => {
+      let image = dCase.image.replace('/cms/images/','/images/cms/1900/')
+      let imageWebp = image.replace('.jpg','.webp')
       return (
-        <div key={`case-${i}`} className="swiper-slide" style={{backgroundImage: `url(${dCase.image.replace('/cms/images/','/images/cms/1900/')})`}}>
+        <Slide key={`case-${i}`} className="swiper-slide" bg={image} bgw={imageWebp}>
           <div className="swiper-gradient"></div>
           <WorkDetails>
             <h1>{dCase.title}</h1>
@@ -121,7 +126,7 @@ class Slider extends Component {
               <DpoButton t="Case details" margin="30px 0px 0px 0px" vimeoID={dCase.vimeoID} triggerCase={this.props.triggerCase} />
             </div>
           </WorkDetails>
-        </div>
+        </Slide>
       )
     })
     return (
