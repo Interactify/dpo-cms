@@ -59,7 +59,7 @@ Metalsmith('public/')
     }))
     .use(writeJson)
     .use((data) => {
-        console.log(data)
+        // console.log(data)
     })
     .source('cms')
     .build(function( err, files ) {

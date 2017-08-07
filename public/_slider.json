@@ -1,6 +1,22 @@
 {
   "data": [
     {
+      "title": "Jordan Superfly 3",
+      "description": "(Unofficial Music & Sound Design, 2017)",
+      "image": "/cms/images/cp3.jpg",
+      "vimeoID": "225744752",
+      "contents": "{\"title\":\"Jordan Superfly 3\",\"description\":\"(Unofficial Music & Sound Design, 2017)\",\"image\":\"/cms/images/cp3.jpg\",\"vimeoID\":\"225744752\",\"contents\":\"\"}",
+      "id": "_slider__jordan-superfly-3.json"
+    },
+    {
+      "title": "Lancôme Grandiose",
+      "description": "(Unofficial Music & Sound Design, 2017)",
+      "image": "/cms/images/lancome.jpg",
+      "vimeoID": "218343706",
+      "contents": "{\"title\":\"Lancôme Grandiose\",\"description\":\"(Unofficial Music & Sound Design, 2017)\",\"image\":\"/cms/images/lancome.jpg\",\"vimeoID\":\"218343706\",\"contents\":\"\"}",
+      "id": "_slider__lancome-grandiose.json"
+    },
+    {
       "title": "Nike ACG",
       "description": "(Unofficial Music & Sound Design, 2017)",
       "image": "/cms/images/nike-2.jpg",
@@ -15,6 +31,46 @@
       "vimeoID": "222166226",
       "contents": "{\"title\":\"Nike Flyknit\",\"description\":\"(Unofficial Music & Sound Design, 2017)\",\"image\":\"/cms/images/nike-1.jpg\",\"vimeoID\":\"222166226\",\"contents\":\"\"}",
       "id": "_slider__nike-flyknit.json"
+    },
+    {
+      "title": "Nike Hyperspeed Terraform",
+      "description": "(Unofficial Music & Sound Design, 2017)",
+      "image": "/cms/images/nike-3.jpg",
+      "vimeoID": "222892696",
+      "contents": "{\"title\":\"Nike Hyperspeed Terraform\",\"description\":\"(Unofficial Music & Sound Design, 2017)\",\"image\":\"/cms/images/nike-3.jpg\",\"vimeoID\":\"222892696\",\"contents\":\"\"}",
+      "id": "_slider__nike-hyperspeed-terraform.json"
+    },
+    {
+      "title": "Nvidia Titanium",
+      "description": "(Unofficial Music & Sound Design, 2017)",
+      "image": "/cms/images/nvidia.jpg",
+      "vimeoID": "223796279",
+      "contents": "{\"title\":\"Nvidia Titanium\",\"description\":\"(Unofficial Music & Sound Design, 2017)\",\"image\":\"/cms/images/nvidia.jpg\",\"vimeoID\":\"223796279\",\"contents\":\"\"}",
+      "id": "_slider__nvidia-titanium.json"
+    },
+    {
+      "title": "PR - Brand Identity",
+      "description": "(Unofficial Music & Sound Design, 2017)",
+      "image": "/cms/images/pr.jpg",
+      "vimeoID": "222528971",
+      "contents": "{\"title\":\"PR - Brand Identity\",\"description\":\"(Unofficial Music & Sound Design, 2017)\",\"image\":\"/cms/images/pr.jpg\",\"vimeoID\":\"222528971\",\"contents\":\"\"}",
+      "id": "_slider__pr-brand-identity.json"
+    },
+    {
+      "title": "Samsung Galaxy",
+      "description": "(Unofficial Music & Sound Design, 2017)",
+      "image": "/cms/images/galaxy.jpg",
+      "vimeoID": "217037200",
+      "contents": "{\"title\":\"Samsung Galaxy\",\"description\":\"(Unofficial Music & Sound Design, 2017)\",\"image\":\"/cms/images/galaxy.jpg\",\"vimeoID\":\"217037200\",\"contents\":\"\"}",
+      "id": "_slider__samsung-galaxy.json"
+    },
+    {
+      "title": "The Dress",
+      "description": "(Unofficial Music & Sound Design, 2017)",
+      "image": "/cms/images/thedress.jpg",
+      "vimeoID": "219007162",
+      "contents": "{\"title\":\"The Dress\",\"description\":\"(Unofficial Music & Sound Design, 2017)\",\"image\":\"/cms/images/thedress.jpg\",\"vimeoID\":\"219007162\",\"contents\":\"\"}",
+      "id": "_slider__the-dress.json"
     }
   ]
 }
