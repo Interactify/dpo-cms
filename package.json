@@ -1,0 +1,25 @@
+{
+  "name": "dpo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@vimeo/player": "^2.1.0",
+    "bootstrap-grid": "^2.0.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.10",
+    "react-snapshot": "^2.0.0-1",
+    "styled-components": "^2.1.1",
+    "swiper": "^3.4.2"
+  },
+  "scripts": {
+    "start": "NODE_PATH=./src react-scripts start",
+    "build": "NODE_PATH=./src react-scripts build && yarn run interactify-optimize",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "interactify-optimize": "yarn run delete-map-files && yarn run delete-references-to-map-files && yarn run defer-js",
+    "delete-map-files": "find ./build -name '*.map' -delete",
+    "delete-references-to-map-files": "find ./build -type f -name '*.html' -exec sed -i -E 's/<link.*rel=\"stylesheet\">//' {} +",
+    "defer-js": "find ./build -type f -name '*.html' -exec sed -i -E 's/.js\"><\\/script>/.js\" defer=\"defer\"><\\/script>/g' {} +"
+  }
+}
