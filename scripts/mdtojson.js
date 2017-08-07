@@ -12,7 +12,7 @@ let settings = {
   "src": "public/cms/",
   "filePattern": "**/*.md",
   "ignore": "*(icon|input)*",
-  "dist": "public/"
+  "dist": "src/cms/"
 }
 
 const writeJson = (files, metalsmith, done) => {
@@ -59,7 +59,7 @@ Metalsmith('public/')
     }))
     .use(writeJson)
     .use((data) => {
-        // console.log(data)
+        console.log(data)
     })
     .source('cms')
     .build(function( err, files ) {

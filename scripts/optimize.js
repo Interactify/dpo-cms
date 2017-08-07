@@ -11,21 +11,21 @@ optimizeImages(475)
 
 function optimizeImages(width) {
   return new Promise((resolve, reject) => {
-    imagemin(['build/cms/images/*.{jpg,png}'], `build/images/cms/${width}`, { use: [
+    imagemin(['public/cms/images/*.{jpg,png}'], `public/images/cms/${width}`, { use: [
         imageminGm.resize({ width: width, gravity: 'Center' }),
         imageminGm.convert('jpg')
     ]}).then(() => {
-      imagemin([`build/images/cms/${width}/*.{jpg,png}`], `build/images/cms/${width}`, {
+      imagemin([`public/images/cms/${width}/*.{jpg,png}`], `public/images/cms/${width}`, {
         plugins: [
           imageminJpegtran(),
           imageminPngquant({quality: '65-80'})
         ]
       }).then(files => {
         //console.log(files);
-        //=> [{data: <Buffer 89 50 4e …>, path: 'build/images/foo.jpg'}, …]
+        //=> [{data: <Buffer 89 50 4e …>, path: 'public/images/foo.jpg'}, …]
         console.log(`Image width ${width} created...`);
       });
-      imagemin([`build/images/cms/${width}/*.{jpg,png}`], `build/images/cms/${width}`, {
+      imagemin([`public/images/cms/${width}/*.{jpg,png}`], `public/images/cms/${width}`, {
           use: [
               imageminWebp({quality: 50})
           ]

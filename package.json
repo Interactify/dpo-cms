@@ -23,12 +23,13 @@
     "swiper": "^3.4.2"
   },
   "scripts": {
-    "start": "NODE_PATH=./src react-scripts start",
-    "build": "NODE_PATH=./src react-scripts build && yarn run interactify-optimize && yarn run interactify-cms",
+    "start": "yarn run interactify-cms && yarn run interactify-optimize && NODE_PATH=./src react-scripts start",
+    "build": "yarn run interactify-cms && NODE_PATH=./src react-scripts build && yarn run interactify-defer && yarn run interactify-optimize",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "interactify-cms": "node scripts/mdtojson.js",
-    "interactify-optimize": "yarn run delete-map-files && yarn run delete-references-to-map-files && yarn run defer-js && node scripts/optimize.js",
+    "interactify-defer": "yarn run delete-map-files && yarn run delete-references-to-map-files && yarn run defer-js && node scripts/optimize.js",
+    "interactify-optimize": "node scripts/optimize.js",
     "delete-map-files": "find ./build -name '*.map' -delete",
     "delete-references-to-map-files": "find ./build -type f -name '*.html' -exec sed -i -E 's/<link.*rel=\"stylesheet\">//' {} +",
     "defer-js": "find ./build -type f -name '*.html' -exec sed -i -E 's/.js\"><\\/script>/.js\" defer=\"defer\"><\\/script>/g' {} +"

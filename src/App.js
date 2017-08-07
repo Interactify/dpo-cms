@@ -7,7 +7,7 @@ import CaseDetails from 'components/case-details/case-details'
 // import Dataset from './dataset'
 import ShowRoom from 'components/showroom/showroom'
 import styled from 'styled-components'
-import {getSlides} from 'functions/api'
+import Slides from 'cms/_slider.json'
 
 const AppDiv = styled.div`
   opacity: ${props => props.showSite ? "1" : "1"};
@@ -104,11 +104,15 @@ class App extends Component {
     this.scrollTo(document.body, offset - 100, duration)
   }
   componentWillMount() {
-    getSlides().then((s) => {
+    console.log(Slides)
+    this.setState({
+      slides: Slides.data
+    })
+    /* getSlides().then((s) => {
       this.setState({
         slides: s.data
       })
-    })
+    }) */
   }
   render() {
     return (

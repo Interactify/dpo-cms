@@ -3,13 +3,13 @@ backend:
   repo: Interactify/dpo-cms # Path to your Github repository
   branch: master # Branch to update (master by default)
 
-media_folder: "src/cms/images" # Folder where user uploaded files should go
+media_folder: "public/cms/images" # Folder where user uploaded files should go
 public_folder: "cms/images"
 
 collections: # A list of collections the CMS should be able to edit
   - name: "slider" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Slider" # Used in the UI, ie.: "New Post"
-    folder: "src/cms/_slider" # The path to the folder where the documents are stored
+    folder: "public/cms/_slider" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string", tagname: "h1"}

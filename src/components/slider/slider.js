@@ -7,7 +7,7 @@ import DpoButton from 'components/button/button'
 import {media} from 'functions/media-query'
 // import Dataset from '../../dataset'
 // import Dataset from '../../_slider.json'
-import {getSlides} from 'functions/api'
+import Slides from 'cms/_slider.json'
 
 const WorkDetails = styled.div`
   position: absolute;
@@ -105,10 +105,8 @@ class Slider extends Component {
     this.mySwiper.slideTo(i, 2000)
   }
   componentWillMount() {
-    getSlides().then((s) => {
-      this.setState({
-        slides: s.data
-      })
+    this.setState({
+      slides: Slides.data
     })
   }
   render() {
