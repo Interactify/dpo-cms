@@ -24,7 +24,7 @@
   },
   "scripts": {
     "start": "yarn run interactify-cms && yarn run interactify-optimize && NODE_PATH=./src react-scripts start",
-    "build": "yarn run interactify-cms && NODE_PATH=./src react-scripts build && yarn run interactify-defer && yarn run interactify-optimize",
+    "build": "yarn run interactify-cms && yarn run interactify-optimize && NODE_PATH=./src react-scripts build && yarn run interactify-defer",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "interactify-cms": "node scripts/mdtojson.js",
