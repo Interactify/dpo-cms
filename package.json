@@ -28,7 +28,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "interactify-cms": "node scripts/mdtojson.js",
-    "interactify-defer": "yarn run delete-map-files && yarn run delete-references-to-map-files && yarn run defer-js && node scripts/optimize.js",
+    "interactify-defer": "yarn run delete-map-files && yarn run delete-references-to-map-files && yarn run defer-js",
     "interactify-optimize": "node scripts/optimize.js",
     "delete-map-files": "find ./build -name '*.map' -delete",
     "delete-references-to-map-files": "find ./build -type f -name '*.html' -exec sed -i -E 's/<link.*rel=\"stylesheet\">//' {} +",
