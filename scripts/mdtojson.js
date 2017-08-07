@@ -48,6 +48,8 @@ const writeJson = (files, metalsmith, done) => {
   done()
 }
 
+
+console.log('Creating json data...')
 Metalsmith('public/')
     .use(filter('**/*.md'))
     .use( markdown() )
@@ -59,9 +61,11 @@ Metalsmith('public/')
     }))
     .use(writeJson)
     .use((data) => {
-        console.log(data)
+        // console.log(data)
     })
     .source('cms')
     .build(function( err, files ) {
         if( err ) throw err;
+    }, ()=>{
+        console.log('done!')
     });

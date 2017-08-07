@@ -104,7 +104,6 @@ class App extends Component {
     this.scrollTo(document.body, offset - 100, duration)
   }
   componentWillMount() {
-    console.log(Slides)
     this.setState({
       slides: Slides.data
     })
