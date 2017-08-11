@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 import Player from '@vimeo/player'
 import Spinner from '../spinner/spinner'
+import {general} from 'functions/general'
 
 const CaseOverlay = styled.div`
     position: fixed;
@@ -61,25 +62,29 @@ class CaseDetails extends Component {
         show: false
     }
     componentDidMount() {
-        this.iframe = this.refs.vimeoIframe;
-        this.player = new Player(this.iframe);
-        this.player.on('progress', function(progress) {
-            if(parseFloat(progress.percent) >= 0.3) {
-                if (!this.state.buffered) {
-                    this.player.setCurrentTime(0)
-                    this.player.setVolume(1)
-                    this.setState({buffered: true})
+        if (!general.isMobile) {
+            this.iframe = this.refs.vimeoIframe;
+            this.player = new Player(this.iframe);
+            this.player.on('progress', function(progress) {
+                if(parseFloat(progress.percent) >= 0.3) {
+                    if (!this.state.buffered) {
+                        this.player.setCurrentTime(0)
+                        this.player.setVolume(1)
+                        this.setState({buffered: true})
+                    }
                 }
-            }
-        }.bind(this))
-
-        this.player.on('loaded', function(load) {
-            this.player.setVolume(0)
-            this.player.play()
-        }.bind(this))
-        setTimeout(()=>{
+            }.bind(this))
+    
+            this.player.on('loaded', function(load) {
+                this.player.setVolume(0)
+                this.player.play()
+            }.bind(this))
+            setTimeout(()=>{
+                this.setState({show: true})
+            },200)
+        } else {
             this.setState({show: true})
-        },200)
+        }
     }
     closeCase = () => {
         this.setState({show: false},()=>{

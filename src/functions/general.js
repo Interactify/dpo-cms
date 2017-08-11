@@ -17,5 +17,12 @@ export const general = {
             };
             img.src = "data:image/webp;base64," + kTestImages[feature];
         }
+    },
+    isMobile: () => {
+        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+            return true
+        } else {
+            return false
+        }
     }
 }
