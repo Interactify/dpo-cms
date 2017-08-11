@@ -79,7 +79,6 @@ class Slider extends Component {
     slides: []
   }
   componentDidMount () {
-    console.log(this.props.cases)
     setTimeout(()=>{
       this.mySwiper = new Swiper ('.swiper-container', {
         loop: false,
