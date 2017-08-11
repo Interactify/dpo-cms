@@ -58,11 +58,12 @@ const CaseOverlay = styled.div`
 
 class CaseDetails extends Component {
     state = {
-        buffered: false,
+        buffered: general.isMobile(),
         show: false
     }
     componentDidMount() {
-        if (!general.isMobile) {
+        if (!general.isMobile()) {
+            console.log('desktop')
             this.iframe = this.refs.vimeoIframe;
             this.player = new Player(this.iframe);
             this.player.on('progress', function(progress) {
