@@ -16,11 +16,11 @@ let settings = {
 }
 
 const writeJson = (files, metalsmith, done) => {
-  var data = {
-    data: []
-  }
+    // console.log(files)
+  var data = {}
   let fname
   for (var file in files) {
+    let group = file.split('/')[0]
     files[file].contents = files[file].contents.toString()
     files[file].id = file.replace(/\.md|\.html/, '').replace(/\//g, '__')
     // Removing unnecessaries properties...
@@ -29,14 +29,18 @@ const writeJson = (files, metalsmith, done) => {
     delete files[file].template
     // consolidating data
     if (files[file].contents.length>2) {
-        data.data.push(files[file])
+        //data[group].push(files[file])
+        if (!data[group]) {
+            data[group] = []
+        }
+        //data.data.push(files[file])
+        data[group].push(files[file])
     }
     if (!fname && file.split('/')[0].length > 1) {
         fname = file.split('/')[0]
     }
   }
-
-  json.writeFileSync(settings.dist + fname + '.json', data, {spaces: 2}, (err) => {
+  json.writeFileSync(settings.dist + 'data.json', data, {spaces: 2}, (err) => {
     console.log(err)
   })
 
@@ -56,7 +60,7 @@ Metalsmith('public/')
     .use( tojson({
         outputPath : './public/',
         createIndexes : true,
-        indexPaths : ['./public/cms/_slider'],
+        indexPaths : ['./public/cms'],
         onlyOutputIndex : true
     }))
     .use(writeJson)

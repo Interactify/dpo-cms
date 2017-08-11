@@ -82,19 +82,17 @@ class Work extends Component {
         return (
             <W showWork={this.props.showWork}>
                 <div className="container-fluid">
-                    <div className="row poster" style={{backgroundImage: 'url(images/work-bg.jpg)'}}>
+                    <div className="row poster" style={{backgroundImage: 'url('+ this.props.image +')'}}>
                         <div className="col-md-12">
                             <div className="poster" >
                                 <div className="header">
                                     <div className="text-content">
-                                        <h2>Work</h2>
-                                         <h4>Passion is key</h4> 
+                                        <h2>{this.props.title}</h2>
+                                         <h4>{this.props.subtitle}</h4> 
                                     </div>
                                     <div className="text-container">
                                         <div className="text">
-                                            DPO Sound Design is a Copenhagen-based studio focusing on original music composition and contemporary sound design for arts and media.<br/>
-            Previous work includes: LEGO, McDonalds, Karl Fazer, Implantatklinik København and Louisiana Museum of Modern Art (med logoer)<br />
-            At DPO Sound Design we strive to surpass our clients expectations and we work fast: Turnaround time is usually 3-5 business days. For info and pricing, please get in touch for a chat and a personal quote.<br />
+                                            {this.props.text}
                                         </div>
                                     </div>
                                 </div>

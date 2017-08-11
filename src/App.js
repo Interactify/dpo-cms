@@ -7,7 +7,7 @@ import CaseDetails from 'components/case-details/case-details'
 // import Dataset from './dataset'
 import ShowRoom from 'components/showroom/showroom'
 import styled from 'styled-components'
-import Slides from 'cms/_slider.json'
+import Data from 'cms/data.json'
 
 const AppDiv = styled.div`
   opacity: ${props => props.showSite ? "1" : "1"};
@@ -105,7 +105,7 @@ class App extends Component {
   }
   componentWillMount() {
     this.setState({
-      slides: Slides.data
+      slides: Data._slider
     })
     /* getSlides().then((s) => {
       this.setState({
@@ -125,7 +125,7 @@ class App extends Component {
           <ShowRoom caseClick={this.caseClick} showCases={this.state.showCases} cases={this.state.slides} />
         </div>
         <div id="work" ref="workclass">
-          <Work ref="work" showWork={this.state.showWork} />
+          <Work ref="work" showWork={this.state.showWork} title={Data._work[0].title} subtitle={Data._work[0].subtitle} image={Data._work[0].image} image={Data._work[0].image} text={Data._work[0].text} />
         </div>
         <div id="contact">
           <Footer ref="contact" />

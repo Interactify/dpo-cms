@@ -7,7 +7,7 @@ import DpoButton from 'components/button/button'
 import {media} from 'functions/media-query'
 // import Dataset from '../../dataset'
 // import Dataset from '../../_slider.json'
-import Slides from 'cms/_slider.json'
+import Data from 'cms/data.json'
 
 const WorkDetails = styled.div`
   position: absolute;
@@ -108,7 +108,7 @@ class Slider extends Component {
   }
   componentWillMount() {
     this.setState({
-      slides: Slides.data
+      slides: Data._slider
     })
   }
   render() {

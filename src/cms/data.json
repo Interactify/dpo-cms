@@ -1,13 +1,15 @@
 {
-  "data": [
+  "_work": [
     {
-      "title": "Jordan Superfly 3",
-      "description": "(Unofficial Music & Sound Design, 2017)",
-      "image": "/cms/images/cp3.jpg",
-      "vimeoID": "225744752",
-      "contents": "{\"title\":\"Jordan Superfly 3\",\"description\":\"(Unofficial Music & Sound Design, 2017)\",\"image\":\"/cms/images/cp3.jpg\",\"vimeoID\":\"225744752\",\"contents\":\"\"}",
-      "id": "_slider__jordan-superfly-3.json"
-    },
+      "title": "Work",
+      "subtitle": "Passion is key",
+      "image": "/cms/images/work-bg.jpg",
+      "text": "DPO Sound Design is a Copenhagen-based studio focusing on original music composition and contemporary sound design for arts and media.\\\nPrevious work includes: LEGO, McDonalds, Karl Fazer, Implantatklinik København and Louisiana Museum of Modern Art (med logoer)\\\nAt DPO Sound Design we strive to surpass our clients expectations and we work fast: Turnaround time is usually 3-5 business days. For info and pricing, please get in touch for a chat and a personal quote.",
+      "contents": "{\"title\":\"Work\",\"subtitle\":\"Passion is key\",\"image\":\"/cms/images/work-bg.jpg\",\"text\":\"DPO Sound Design is a Copenhagen-based studio focusing on original music composition and contemporary sound design for arts and media.\\\\\\nPrevious work includes: LEGO, McDonalds, Karl Fazer, Implantatklinik København and Louisiana Museum of Modern Art (med logoer)\\\\\\nAt DPO Sound Design we strive to surpass our clients expectations and we work fast: Turnaround time is usually 3-5 business days. For info and pricing, please get in touch for a chat and a personal quote.\",\"contents\":\"\"}",
+      "id": "_work__work.json"
+    }
+  ],
+  "_slider": [
     {
       "title": "Lancôme Grandiose",
       "description": "(Unofficial Music & Sound Design, 2017)",
@@ -25,6 +27,14 @@
       "id": "_slider__nike-acg.json"
     },
     {
+      "title": "Jordan Superfly 3",
+      "description": "(Unofficial Music & Sound Design, 2017)",
+      "image": "/cms/images/cp3.jpg",
+      "vimeoID": "225744752",
+      "contents": "{\"title\":\"Jordan Superfly 3\",\"description\":\"(Unofficial Music & Sound Design, 2017)\",\"image\":\"/cms/images/cp3.jpg\",\"vimeoID\":\"225744752\",\"contents\":\"\"}",
+      "id": "_slider__jordan-superfly-3.json"
+    },
+    {
       "title": "Nike Flyknit",
       "description": "(Unofficial Music & Sound Design, 2017)",
       "image": "/cms/images/nike-1.jpg",
@@ -33,20 +43,20 @@
       "id": "_slider__nike-flyknit.json"
     },
     {
-      "title": "Nike Hyperspeed Terraform",
-      "description": "(Unofficial Music & Sound Design, 2017)",
-      "image": "/cms/images/nike-3.jpg",
-      "vimeoID": "222892696",
-      "contents": "{\"title\":\"Nike Hyperspeed Terraform\",\"description\":\"(Unofficial Music & Sound Design, 2017)\",\"image\":\"/cms/images/nike-3.jpg\",\"vimeoID\":\"222892696\",\"contents\":\"\"}",
-      "id": "_slider__nike-hyperspeed-terraform.json"
-    },
-    {
       "title": "Nvidia Titanium",
       "description": "(Unofficial Music & Sound Design, 2017)",
       "image": "/cms/images/nvidia.jpg",
       "vimeoID": "223796279",
       "contents": "{\"title\":\"Nvidia Titanium\",\"description\":\"(Unofficial Music & Sound Design, 2017)\",\"image\":\"/cms/images/nvidia.jpg\",\"vimeoID\":\"223796279\",\"contents\":\"\"}",
       "id": "_slider__nvidia-titanium.json"
+    },
+    {
+      "title": "Nike Hyperspeed Terraform",
+      "description": "(Unofficial Music & Sound Design, 2017)",
+      "image": "/cms/images/nike-3.jpg",
+      "vimeoID": "222892696",
+      "contents": "{\"title\":\"Nike Hyperspeed Terraform\",\"description\":\"(Unofficial Music & Sound Design, 2017)\",\"image\":\"/cms/images/nike-3.jpg\",\"vimeoID\":\"222892696\",\"contents\":\"\"}",
+      "id": "_slider__nike-hyperspeed-terraform.json"
     },
     {
       "title": "PR - Brand Identity",
