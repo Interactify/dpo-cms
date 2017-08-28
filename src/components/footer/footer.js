@@ -26,7 +26,7 @@ const Foot = styled.div`
     }
     &:before {
         background: url(/images/bow.svg) no-repeat bottom center;
-        background-size: inherit;
+        background-size: cover;
         content: '';
         height: 104px;
         left: 0px;
