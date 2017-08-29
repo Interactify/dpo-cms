@@ -46,9 +46,9 @@ class Footer extends Component {
                         <Logo bcolor="#000000" tcolor="#ffffff" width="80" height="80" />
                         mail@dposounddesign.com <br />
                         +45 40 98 74 40<br />
-                        Valdemarsgade 19B, <br />
+                        Valdemarsgade 19B <br />
                         1665 Copenhagen V, Denmark<br />
-                        CVR: DK38274716
+                        VAT: DK38274716
                     </div>
                 </div>
             </Foot>
