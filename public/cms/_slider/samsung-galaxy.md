@@ -1,7 +1,10 @@
 ---
 title: Samsung Galaxy
-description: '(Unofficial Music & Sound Design, 2017)'
-image: /cms/images/galaxy.jpg
+description: >-
+  Music & sound design by DPO Sound Design, 2017. Not commissioned. No copyright
+  infringement intended.
+image: /cms/images/Skærmbillede 2017-08-29 kl. 12.44.47.png
 vimeoID: '217037200'
 ---
+
 
