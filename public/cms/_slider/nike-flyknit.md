@@ -1,10 +1,9 @@
 ---
 title: Nike Flyknit
-description: >-
-  Music & sound design by DPO Sound Design, 2017. Not commissioned. No copyright
-  infringement intended.
+description: 'Music & Sound Design, 2017. Not Commissioned.'
 image: /cms/images/nike-1.jpg
 vimeoID: '222166226'
 ---
+
 
 
