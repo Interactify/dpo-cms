@@ -1,9 +1,8 @@
 ---
 title: Michael Rigley - Metric
-description: >-
-  Music & sound design by DPO Sound Design, 2017. Not commissioned. No copyright
-  infringement intended.
+description: 'Music & Sound Design, 2017. Not Commissioned.'
 image: /cms/images/Metric 2.png
 vimeoID: '228642312'
 ---
+
 
