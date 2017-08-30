@@ -114,6 +114,7 @@ class Slider extends Component {
   render() {
     let Slides = this.state.slides.map((dCase, i) => {
       let image = dCase.image.replace('/cms/images/','/images/cms/1900/')
+      image = encodeURI(image)
       let imageWebp = image.replace('.jpg','.webp')
       return (
         <Slide key={`case-${i}`} className="swiper-slide" bg={image} bgw={imageWebp}>

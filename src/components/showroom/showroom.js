@@ -95,7 +95,7 @@ class ShowRoom extends Component {
                         <div className="description">
                             <h1>{dCase.title}</h1>
                         </div>
-                        <div className="backimage" style={{backgroundImage: `url(${dCase.image.replace('/cms/images/','/images/cms/475/')})`}}/>
+                        <div className="backimage" style={{backgroundImage: `url(${encodeURI(dCase.image.replace('/cms/images/','/images/cms/475/'))})`}}/>
                     </Item>
                 </div>
             )
