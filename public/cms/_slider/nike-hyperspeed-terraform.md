@@ -1,11 +1,10 @@
 ---
 title: Nike Hyperspeed Terraform
-description: >-
-  Music & sound design by DPO Sound Design, 2017. Not commissioned. No copyright
-  infringement intended.
+description: 'Music & Sound Design, 2017. Not Commissioned.'
 image: /cms/images/Hyper 1.png
 vimeoID: '222892696'
 ---
+
 
 
 
