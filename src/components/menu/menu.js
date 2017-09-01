@@ -189,7 +189,7 @@ class Menu extends Component {
                 <div className="container desktop">
                     <div className="row">
                         <div className="col-md-12">
-                            <a onClick={() => { this.props.dpoScroll('slider', 1000) }}><img src="images/logo4-dashed-white.svg" style={{width: '50px'}} alt="logo" /></a>
+                            <img src="images/logo4-dashed-white.svg" style={{width: '50px'}} alt="logo" />
                             <ul>
                                 <li>
                                     <a onClick={() => { this.props.dpoScroll('cases', 1000) }}>Work</a>
