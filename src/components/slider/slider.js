@@ -122,8 +122,8 @@ class Slider extends Component {
           <WorkDetails>
             <h1>{dCase.title}</h1>
             <span>{dCase.description}</span>
-            <div className="case-details">
-              <DpoButton t="Case details" margin="30px 0px 0px 0px" vimeoID={dCase.vimeoID} triggerCase={this.props.triggerCase} />
+            <div className="show-video">
+              <DpoButton t="Show video" margin="30px 0px 0px 0px" vimeoID={dCase.vimeoID} triggerCase={this.props.triggerCase} />
             </div>
           </WorkDetails>
         </Slide>
