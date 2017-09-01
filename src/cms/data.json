@@ -1,127 +1,126 @@
 {
+  "_work": [
+    {
+      "title": "Studio",
+      "subtitle": "Contemporary and Innovative",
+      "image": "/cms/images/genelec.jpg",
+      "text": "DPO Sound Design is a Copenhagen-based studio focusing on original music composition and contemporary sound design for arts and media. The studio, founded in 2017, is owned and operated by Daniel Porcelli. Porcelli is currently finishing a Bachelor of Arts in Media Sonic Communication while working as a forward thinking music producer and sound designer.\n\nDPO Sound Design has recently done a number of music and sound design showcases to brand itself as a go-to-studio for innovative sound design and music for forward thinking brands.\n\nAt DPO Sound Design we strive to surpass our clients expectations and we work fast: Turnaround time is usually 3-5 business days. For info and pricing, please get in touch for a chat and a personal quote.",
+      "contents": "{\"title\":\"Studio\",\"subtitle\":\"Contemporary and Innovative\",\"image\":\"/cms/images/genelec.jpg\",\"text\":\"DPO Sound Design is a Copenhagen-based studio focusing on original music composition and contemporary sound design for arts and media. The studio, founded in 2017, is owned and operated by Daniel Porcelli. Porcelli is currently finishing a Bachelor of Arts in Media Sonic Communication while working as a forward thinking music producer and sound designer.\\n\\nDPO Sound Design has recently done a number of music and sound design showcases to brand itself as a go-to-studio for innovative sound design and music for forward thinking brands.\\n\\nAt DPO Sound Design we strive to surpass our clients expectations and we work fast: Turnaround time is usually 3-5 business days. For info and pricing, please get in touch for a chat and a personal quote.\",\"contents\":\"\"}",
+      "id": "_work__work.json"
+    }
+  ],
   "_slider": [
     {
       "title": "Ash Thorp - Adobe Remix",
-      "description": "Music & sound design by DPO Sound Design, 2017. Not commissioned. No copyright infringement intended.",
-      "image": "/cms/images/Adobe Remix.png",
+      "description": "Music & Sound Design, 2017. Not Commissioned.",
+      "image": "/cms/images/Skærmbillede 2017-08-30 kl. 18.19.50.png",
       "vimeoID": "229152426",
-      "contents": "{\"title\":\"Ash Thorp - Adobe Remix\",\"description\":\"Music & sound design by DPO Sound Design, 2017. Not commissioned. No copyright infringement intended.\",\"image\":\"/cms/images/Adobe Remix.png\",\"vimeoID\":\"229152426\",\"contents\":\"\"}",
+      "contents": "{\"title\":\"Ash Thorp - Adobe Remix\",\"description\":\"Music & Sound Design, 2017. Not Commissioned.\",\"image\":\"/cms/images/Skærmbillede 2017-08-30 kl. 18.19.50.png\",\"vimeoID\":\"229152426\",\"contents\":\"\"}",
       "id": "_slider__ash-thorp-adobe-remix.json"
     },
     {
       "title": "Audi A5 - Pure Imagination",
-      "description": "Music & sound design by DPO Sound Design, 2017. Not commissioned. No copyright infringement intended.",
-      "image": "/cms/images/Skærmbillede 2017-08-29 kl. 13.08.36.png",
+      "description": "Music & Sound Design, 2017. Not Commissioned.",
+      "image": "/cms/images/Skærmbillede 2017-08-30 kl. 12.12.37.png",
       "vimeoID": "227064130",
-      "contents": "{\"title\":\"Audi A5 - Pure Imagination\",\"description\":\"Music & sound design by DPO Sound Design, 2017. Not commissioned. No copyright infringement intended.\",\"image\":\"/cms/images/Skærmbillede 2017-08-29 kl. 13.08.36.png\",\"vimeoID\":\"227064130\",\"contents\":\"\"}",
+      "contents": "{\"title\":\"Audi A5 - Pure Imagination\",\"description\":\"Music & Sound Design, 2017. Not Commissioned.\",\"image\":\"/cms/images/Skærmbillede 2017-08-30 kl. 12.12.37.png\",\"vimeoID\":\"227064130\",\"contents\":\"\"}",
       "id": "_slider__audi-a5-pure-imagination.json"
     },
-        {
-	      "title": "Jordan Superfly 3",
-	      "description": "Music & sound design by DPO Sound Design, 2017. Not commissioned. No copyright infringement intended.",
-	      "image": "/cms/images/Skærmbillede 2017-08-29 kl. 13.10.24.png",
-	      "vimeoID": "225744752",
-	      "contents": "{\"title\":\"Jordan Superfly 3\",\"description\":\"Music & sound design by DPO Sound Design, 2017. Not commissioned. No copyright infringement intended.\",\"image\":\"/cms/images/Skærmbillede 2017-08-29 kl. 13.10.24.png\",\"vimeoID\":\"225744752\",\"contents\":\"\"}",
-	      "id": "_slider__jordan-superfly-3.json"
-	    },
-	    {
-	      "title": "Lamborghini Birth",
-	      "description": "Music & sound design by DPO Sound Design, 2017. Not commissioned. No copyright infringement intended.",
-	      "image": "/cms/images/Lambo 2.png",
-	      "vimeoID": "225821402",
-	      "contents": "{\"title\":\"Lamborghini Birth\",\"description\":\"Music & sound design by DPO Sound Design, 2017. Not commissioned. No copyright infringement intended.\",\"image\":\"/cms/images/Lambo 2.png\",\"vimeoID\":\"225821402\",\"contents\":\"\"}",
-	      "id": "_slider__lamborghini-birth.json"
-	    },
-
+    {
+      "title": "Jordan Superfly 3",
+      "description": "Music & Sound Design, 2017. Not Commissioned.",
+      "image": "/cms/images/Skærmbillede 2017-08-30 kl. 12.15.48.png",
+      "vimeoID": "225744752",
+      "contents": "{\"title\":\"Jordan Superfly 3\",\"description\":\"Music & Sound Design, 2017. Not Commissioned.\",\"image\":\"/cms/images/Skærmbillede 2017-08-30 kl. 12.15.48.png\",\"vimeoID\":\"225744752\",\"contents\":\"\"}",
+      "id": "_slider__jordan-superfly-3.json"
+    },
+    {
+      "title": "Lamborghini - Birth",
+      "description": "Music & Sound Design, 2017. Not Commissioned.",
+      "image": "/cms/images/Lambo 2.png",
+      "vimeoID": "225821402",
+      "contents": "{\"title\":\"Lamborghini - Birth\",\"description\":\"Music & Sound Design, 2017. Not Commissioned.\",\"image\":\"/cms/images/Lambo 2.png\",\"vimeoID\":\"225821402\",\"contents\":\"\"}",
+      "id": "_slider__lamborghini-birth.json"
+    },
     {
       "title": "Lancôme Grandiose",
-      "description": "Music & sound design by DPO Sound Design, 2017. Not commissioned. No copyright infringement intended.",
+      "description": "Music & Sound Design, 2017. Not Commissioned.",
       "image": "/cms/images/Grandiose 1.png",
       "vimeoID": "218343706",
-      "contents": "{\"title\":\"Lancôme Grandiose\",\"description\":\"Music & sound design by DPO Sound Design, 2017. Not commissioned. No copyright infringement intended.\",\"image\":\"/cms/images/Grandiose 1.png\",\"vimeoID\":\"218343706\",\"contents\":\"\"}",
+      "contents": "{\"title\":\"Lancôme Grandiose\",\"description\":\"Music & Sound Design, 2017. Not Commissioned.\",\"image\":\"/cms/images/Grandiose 1.png\",\"vimeoID\":\"218343706\",\"contents\":\"\"}",
       "id": "_slider__lancome-grandiose.json"
     },
     {
       "title": "Michael Rigley - Metric",
-      "description": "Music & sound design by DPO Sound Design, 2017. Not commissioned. No copyright infringement intended.",
+      "description": "Music & Sound Design, 2017. Not Commissioned.",
       "image": "/cms/images/Metric 2.png",
       "vimeoID": "228642312",
-      "contents": "{\"title\":\"Michael Rigley - Metric\",\"description\":\"Music & sound design by DPO Sound Design, 2017. Not commissioned. No copyright infringement intended.\",\"image\":\"/cms/images/Metric 2.png\",\"vimeoID\":\"228642312\",\"contents\":\"\"}",
+      "contents": "{\"title\":\"Michael Rigley - Metric\",\"description\":\"Music & Sound Design, 2017. Not Commissioned.\",\"image\":\"/cms/images/Metric 2.png\",\"vimeoID\":\"228642312\",\"contents\":\"\"}",
       "id": "_slider__michael-rigley-metric.json"
     },
     {
       "title": "Nike ACG",
-      "description": "Music & sound design by DPO Sound Design, 2017. Not commissioned. No copyright infringement intended.",
+      "description": "Music & Sound Design, 2017. Not Commissioned.",
       "image": "/cms/images/nike-2.jpg",
       "vimeoID": "216511321",
-      "contents": "{\"title\":\"Nike ACG\",\"description\":\"Music & sound design by DPO Sound Design, 2017. Not commissioned. No copyright infringement intended.\",\"image\":\"/cms/images/nike-2.jpg\",\"vimeoID\":\"216511321\",\"contents\":\"\"}",
+      "contents": "{\"title\":\"Nike ACG\",\"description\":\"Music & Sound Design, 2017. Not Commissioned.\",\"image\":\"/cms/images/nike-2.jpg\",\"vimeoID\":\"216511321\",\"contents\":\"\"}",
       "id": "_slider__nike-acg.json"
     },
     {
-      "title": "Nike Hyperspeed Terraform",
-      "description": "Music & sound design by DPO Sound Design, 2017. Not commissioned. No copyright infringement intended.",
-      "image": "/cms/images/Hyper 1.png",
-      "vimeoID": "222892696",
-      "contents": "{\"title\":\"Nike Hyperspeed Terraform\",\"description\":\"Music & sound design by DPO Sound Design, 2017. Not commissioned. No copyright infringement intended.\",\"image\":\"/cms/images/Hyper 1.png\",\"vimeoID\":\"222892696\",\"contents\":\"\"}",
-      "id": "_slider__nike-hyperspeed-terraform.json"
-    },
-    {
-      "title": "Nvidia Titanium",
-      "description": "Music & sound design by DPO Sound Design, 2017. Not commissioned. No copyright infringement intended.",
-      "image": "/cms/images/Titanium.png",
-      "vimeoID": "223796279",
-      "contents": "{\"title\":\"Nvidia Titanium\",\"description\":\"Music & sound design by DPO Sound Design, 2017. Not commissioned. No copyright infringement intended.\",\"image\":\"/cms/images/Titanium.png\",\"vimeoID\":\"223796279\",\"contents\":\"\"}",
-      "id": "_slider__nvidia-titanium.json"
-    },
-    {
       "title": "Nike Flyknit",
-      "description": "Music & sound design by DPO Sound Design, 2017. Not commissioned. No copyright infringement intended.",
+      "description": "Music & Sound Design, 2017. Not Commissioned.",
       "image": "/cms/images/nike-1.jpg",
       "vimeoID": "222166226",
-      "contents": "{\"title\":\"Nike Flyknit\",\"description\":\"Music & sound design by DPO Sound Design, 2017. Not commissioned. No copyright infringement intended.\",\"image\":\"/cms/images/nike-1.jpg\",\"vimeoID\":\"222166226\",\"contents\":\"\"}",
+      "contents": "{\"title\":\"Nike Flyknit\",\"description\":\"Music & Sound Design, 2017. Not Commissioned.\",\"image\":\"/cms/images/nike-1.jpg\",\"vimeoID\":\"222166226\",\"contents\":\"\"}",
       "id": "_slider__nike-flyknit.json"
     },
     {
+      "title": "Nike ACG - Hyperspeed Terraform",
+      "description": "Music & Sound Design, 2017. Not Commissioned.",
+      "image": "/cms/images/Hyper 1.png",
+      "vimeoID": "222892696",
+      "contents": "{\"title\":\"Nike ACG - Hyperspeed Terraform\",\"description\":\"Music & Sound Design, 2017. Not Commissioned.\",\"image\":\"/cms/images/Hyper 1.png\",\"vimeoID\":\"222892696\",\"contents\":\"\"}",
+      "id": "_slider__nike-hyperspeed-terraform.json"
+    },
+    {
+      "title": "Nvidia - Titanium",
+      "description": "Music & Sound Design, 2017. Not Commissioned.",
+      "image": "/cms/images/Titanium.png",
+      "vimeoID": "223796279",
+      "contents": "{\"title\":\"Nvidia - Titanium\",\"description\":\"Music & Sound Design, 2017. Not Commissioned.\",\"image\":\"/cms/images/Titanium.png\",\"vimeoID\":\"223796279\",\"contents\":\"\"}",
+      "id": "_slider__nvidia-titanium.json"
+    },
+    {
       "title": "PR - Audio Branding",
-      "description": "Music & sound design by DPO Sound Design, 2017. Not commissioned. No copyright infringement intended.",
-      "image": "/cms/images/PR.png",
+      "description": "Music & Sound Design, 2017. Not Commissioned.",
+      "image": "/cms/images/Skærmbillede 2017-08-30 kl. 12.09.15.png",
       "vimeoID": "222528971",
-      "contents": "{\"title\":\"PR - Audio Branding\",\"description\":\"Music & sound design by DPO Sound Design, 2017. Not commissioned. No copyright infringement intended.\",\"image\":\"/cms/images/PR.png\",\"vimeoID\":\"222528971\",\"contents\":\"\"}",
+      "contents": "{\"title\":\"PR - Audio Branding\",\"description\":\"Music & Sound Design, 2017. Not Commissioned.\",\"image\":\"/cms/images/Skærmbillede 2017-08-30 kl. 12.09.15.png\",\"vimeoID\":\"222528971\",\"contents\":\"\"}",
       "id": "_slider__pr-brand-identity.json"
     },
     {
-      "title": "Showreel 2017",
-      "description": "Music & sound design by DPO Sound Design, 2017. Not commissioned. No copyright infringement intended.",
-      "image": "/cms/images/Skærmbillede 2017-08-29 kl. 13.25.58.png",
-      "vimeoID": "227876786",
-      "contents": "{\"title\":\"Showreel 2017\",\"description\":\"Music & sound design by DPO Sound Design, 2017. Not commissioned. No copyright infringement intended.\",\"image\":\"/cms/images/Skærmbillede 2017-08-29 kl. 13.25.58.png\",\"vimeoID\":\"227876786\",\"contents\":\"\"}",
-      "id": "_slider__showreel-2017.json"
-    },
-    {
       "title": "Samsung Galaxy",
-      "description": "Music & sound design by DPO Sound Design, 2017. Not commissioned. No copyright infringement intended.",
-      "image": "/cms/images/Skærmbillede 2017-08-29 kl. 12.44.47.png",
+      "description": "Music & Sound Design, 2016. Not Commissioned.",
+      "image": "/cms/images/Skærmbillede 2017-08-30 kl. 12.07.49.png",
       "vimeoID": "217037200",
-      "contents": "{\"title\":\"Samsung Galaxy\",\"description\":\"Music & sound design by DPO Sound Design, 2017. Not commissioned. No copyright infringement intended.\",\"image\":\"/cms/images/Skærmbillede 2017-08-29 kl. 12.44.47.png\",\"vimeoID\":\"217037200\",\"contents\":\"\"}",
+      "contents": "{\"title\":\"Samsung Galaxy\",\"description\":\"Music & Sound Design, 2016. Not Commissioned.\",\"image\":\"/cms/images/Skærmbillede 2017-08-30 kl. 12.07.49.png\",\"vimeoID\":\"217037200\",\"contents\":\"\"}",
       "id": "_slider__samsung-galaxy.json"
     },
     {
+      "title": "Showreel 2017",
+      "description": "Music & Sound Design, 2017. Not Commissioned.",
+      "image": "/cms/images/Skærmbillede 2017-08-30 kl. 18.17.03.png",
+      "vimeoID": "227876786",
+      "contents": "{\"title\":\"Showreel 2017\",\"description\":\"Music & Sound Design, 2017. Not Commissioned.\",\"image\":\"/cms/images/Skærmbillede 2017-08-30 kl. 18.17.03.png\",\"vimeoID\":\"227876786\",\"contents\":\"\"}",
+      "id": "_slider__showreel-2017.json"
+    },
+    {
       "title": "Barnaby Roper - The Dress",
-      "description": "Music & sound design by DPO Sound Design, 2017. Not commissioned. No copyright infringement intended.",
+      "description": "Music & Sound Design, 2017. Not Commissioned.",
       "image": "/cms/images/Skærmbillede 2017-08-29 kl. 13.44.09.png",
       "vimeoID": "219007162",
-      "contents": "{\"title\":\"Barnaby Roper - The Dress\",\"description\":\"Music & sound design by DPO Sound Design, 2017. Not commissioned. No copyright infringement intended.\",\"image\":\"/cms/images/Skærmbillede 2017-08-29 kl. 13.44.09.png\",\"vimeoID\":\"219007162\",\"contents\":\"\"}",
+      "contents": "{\"title\":\"Barnaby Roper - The Dress\",\"description\":\"Music & Sound Design, 2017. Not Commissioned.\",\"image\":\"/cms/images/Skærmbillede 2017-08-29 kl. 13.44.09.png\",\"vimeoID\":\"219007162\",\"contents\":\"\"}",
       "id": "_slider__the-dress.json"
-    }
-  ],
-  "_studio": [
-    {
-      "title": "Studio",
-      "subtitle": "Contemporary and innovative",
-      "image": "/cms/images/work-bg.jpg",
-      "text": "DPO Sound Design is a Copenhagen-based studio focusing on original music composition and contemporary sound design for arts and media. The studio, founded in 2017, is owned and operated by Daniel Porcelli. Porcelli is currently finishing a Bachelor of Arts in Media Sonic Communication while working as a forward thinking music producer and sound designer. \n\nDPO Sound Design has recently done a number of music and sound design showcases to brand itself as a go-to-studio for futuristic and innovative sound design and music for forward thinking brands.\n\nAt DPO Sound Design we strive to surpass our clients expectations and we work fast: Turnaround time is usually 3-5 business days. For info and pricing, please get in touch for a chat and a personal quote.",
-      "contents": "{\"title\":\"Studio\",\"subtitle\":\"Contemporary and innovative\",\"image\":\"/cms/images/work-bg.jpg\",\"text\":\"DPO Sound Design is a Copenhagen-based studio focusing on original music composition and contemporary sound design for arts and media. The studio, founded in 2017, is owned and operated by Daniel Porcelli. Porcelli is currently finishing a Bachelor of Arts in Media Sonic Communication while working as a forward thinking music producer and sound designer. \\n\\nDPO Sound Design has recently done a number of music and sound design showcases to brand itself as a go-to-studio for futuristic and innovative sound design and music for forward thinking brands.\\n\\nAt DPO Sound Design we strive to surpass our clients expectations and we work fast: Turnaround time is usually 3-5 business days. For info and pricing, please get in touch for a chat and a personal quote.\",\"contents\":\"\"}",
-      "id": "_work__work.json"
     }
   ]
 }

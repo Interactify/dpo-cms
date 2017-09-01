@@ -174,7 +174,7 @@ class Menu extends Component {
         menuColor: null,
         bcolor: '#ffffff',
         tcolor: '#000000',
-        backgroundColor: '',
+        backgroundColor: '#000000',
         top: '',
         showMobileMenu: false
     }
@@ -183,37 +183,13 @@ class Menu extends Component {
             showMobileMenu: !this.state.showMobileMenu
         })
     }
-    componentDidMount() {
-        window.addEventListener('scroll', (e) => {
-            var rect = document.getElementsByClassName("swiper-container")[0].getBoundingClientRect()
-            if (rect.bottom <= 120) {
-                if (this.state.bcolor !== '#000000') {
-                    this.setState({
-                        bcolor: '#000000',
-                        tcolor: '#ffffff',
-                        backgroundColor: '#ffffff',
-                        top: '10px'
-                    })
-                }
-            } else {
-                if (this.state.bcolor !== '#ffffff') {
-                    this.setState({
-                        bcolor: '#ffffff',
-                        tcolor: '#000000',
-                        backgroundColor: '',
-                        top: ''
-                    })
-                }
-            }
-        }, {passive: true})
-    }
     render() {
         return (
             <M textColor={this.state.bcolor} backgroundColor={this.state.backgroundColor} top={this.state.top} showMobileMenu={this.state.showMobileMenu}>
                 <div className="container desktop">
                     <div className="row">
                         <div className="col-md-12">
-                            <a onClick={() => { this.props.dpoScroll('slider', 1000) }}><Logo tcolor={this.state.tcolor} bcolor={this.state.bcolor} /></a>
+                            <a onClick={() => { this.props.dpoScroll('slider', 1000) }}><img src="images/logo4-dashed-white.svg" style={{width: '50px'}} alt="logo" /></a>
                             <ul>
                                 <li>
                                     <a onClick={() => { this.props.dpoScroll('cases', 1000) }}>Work</a>

@@ -6,8 +6,10 @@ const ShowMason = styled.div`
     position: relative;
     line-height: 0px;
     padding-top: 10px;
+    margin-top: 116px;
     ${media.phone`
         text-align: center;
+        margin-top: 60px;
     `}
     &:hover {
         .item {
@@ -43,8 +45,8 @@ const ShowMason = styled.div`
         position: relative;
         overflow: hidden;
         display: inline-block;
-        opacity: ${props => props.showCases ? "1" : "0"};
-        transform: ${props => props.showCases ? "translateY(0px)" : "translateY(20px)"};
+        opacity: ${props => props.showCases ? "1" : "1"};
+        transform: ${props => props.showCases ? "translateY(0px)" : "translateY(0px)"};
 
         .description {
             position: absolute;
@@ -91,7 +93,7 @@ class ShowRoom extends Component {
         let cases = this.props.cases.map((dCase, i) => {
             return (
                 <div className="item-container" key={`cases-${i}`}>
-                    <Item delay={i * 300} onClick={(e) => { this.props.caseClick(i) }} className='item'>
+                    <Item delay={i * 300} onClick={(e) => { this.props.caseClick(dCase.vimeoID) }} className='item'>
                         <div className="description">
                             <h1>{dCase.title}</h1>
                         </div>

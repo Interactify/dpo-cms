@@ -37,13 +37,13 @@ const CaseOverlay = styled.div`
     }
     .close {
         position: absolute;
-        right: 30px;
-        top: 20px;
+        right: 50px;
+        top: 10px;
         font-size: 30px;
         z-index: 12;
         img {
-            width: 20px;
-            height: 20px;
+            width: 30px;
+            height: 30px;
             opacity: 0.8;
             transition: all ease 1s;
             cursor: pointer;
@@ -63,10 +63,9 @@ class CaseDetails extends Component {
     }
     componentDidMount() {
         if (!general.isMobile()) {
-            console.log('desktop')
             this.iframe = this.refs.vimeoIframe;
             this.player = new Player(this.iframe);
-            this.player.on('progress', function(progress) {
+            /* this.player.on('progress', function(progress) {
                 if(parseFloat(progress.percent) >= 0) {
                     if (!this.state.buffered) {
                         this.player.setCurrentTime(0)
@@ -79,10 +78,14 @@ class CaseDetails extends Component {
             this.player.on('loaded', function(load) {
                 this.player.setVolume(0)
                 this.player.play()
+            }.bind(this)) */
+            this.player.on('loaded', function(load) {
+                this.player.setVolume(0)
+                this.player.play()
             }.bind(this))
             setTimeout(()=>{
-                this.setState({show: true})
-            },0)
+                this.setState({show: true, buffered: true})
+            },100)
         } else {
             this.setState({show: true})
         }
