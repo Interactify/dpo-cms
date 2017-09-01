@@ -82,7 +82,7 @@ class CaseDetails extends Component {
             }.bind(this))
             setTimeout(()=>{
                 this.setState({show: true})
-            },200)
+            },0)
         } else {
             this.setState({show: true})
         }
