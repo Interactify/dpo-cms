@@ -216,10 +216,10 @@ class Menu extends Component {
                             <a onClick={() => { this.props.dpoScroll('slider', 1000) }}><Logo tcolor={this.state.tcolor} bcolor={this.state.bcolor} /></a>
                             <ul>
                                 <li>
-                                    <a onClick={() => { this.props.dpoScroll('work', 1000) }}>Work</a>
+                                    <a onClick={() => { this.props.dpoScroll('cases', 1000) }}>Work</a>
                                 </li>
                                 <li>
-                                    <a onClick={() => { this.props.dpoScroll('studio', 1000) }}>Studio</a>
+                                    <a onClick={() => { this.props.dpoScroll('work', 1000) }}>Studio</a>
                                 </li>
                                 
                                 <li>
