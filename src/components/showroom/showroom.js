@@ -11,7 +11,7 @@ const ShowMason = styled.div`
     `}
     &:hover {
         .item {
-            opacity: 0.7;
+            opacity: 0.5;
             transition-delay: 0s;
         }
     }
