@@ -44,7 +44,7 @@ const CaseOverlay = styled.div`
         img {
             width: 20px;
             height: 20px;
-            opacity: 0.6;
+            opacity: 0.8;
             transition: all ease 1s;
             cursor: pointer;
             transform: scale(0.7);
