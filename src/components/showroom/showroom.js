@@ -70,7 +70,7 @@ const ShowMason = styled.div`
             background-position: center;
             height: 100%;
             width: 100%;
-            transition: transform 5s ease;
+            transition: transform 10s ease;
         }
         &:hover {
             cursor: pointer;
