@@ -67,7 +67,7 @@ class CaseDetails extends Component {
             this.iframe = this.refs.vimeoIframe;
             this.player = new Player(this.iframe);
             this.player.on('progress', function(progress) {
-                if(parseFloat(progress.percent) >= 0.03) {
+                if(parseFloat(progress.percent) >= 0) {
                     if (!this.state.buffered) {
                         this.player.setCurrentTime(0)
                         this.player.setVolume(1)

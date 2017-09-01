@@ -50,6 +50,7 @@ const W = styled.div`
                     font-family: 'Muli', sans-serif;
                     font-size: 16px;
                     line-height: 27px;
+                    text-align: justify;
                     ${media.phone`
                         font-size: 13px;
                         line-height: 17px;
