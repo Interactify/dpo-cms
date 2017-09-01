@@ -27,7 +27,7 @@ const CaseOverlay = styled.div`
         z-index: 11;
         height: 100%;
         width: 100%;
-        transition: ease 4s all;
+        transition: ease 1s all;
         transition-delay: 1s;
         opacity: ${props => props.loadOverlay ? '1' : '0'};
         visibility: ${props => props.loadOverlay ? 'visible' : 'hidden'};
