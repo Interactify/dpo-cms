@@ -1,9 +1,10 @@
 ---
 title: Showreel 2017
 description: 'Music & Sound Design, 2017. Not Commissioned.'
-image: /cms/images/Skærmbillede 2017-08-30 kl. 18.17.03.png
+image: /cms/images/Grandiose 3.png
 vimeoID: '227876786'
 ---
+
 
 
 
