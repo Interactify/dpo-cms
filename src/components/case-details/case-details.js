@@ -13,7 +13,6 @@ const CaseOverlay = styled.div`
     z-index: 10;
     opacity: ${props => props.showCaseOverlay ? '1' : '0'};
     visibility: ${props => props.showCaseOverlay ? 'visible' : 'hidden'};
-    transition: ease 1s all;
     .case-video {
         background-color: rgba(0,0,0,1);
         height: 100vh;
@@ -27,8 +26,6 @@ const CaseOverlay = styled.div`
         z-index: 11;
         height: 100%;
         width: 100%;
-        transition: ease 1s all;
-        transition-delay: 1s;
         opacity: ${props => props.loadOverlay ? '1' : '0'};
         visibility: ${props => props.loadOverlay ? 'visible' : 'hidden'};
         display: flex;
@@ -45,7 +42,6 @@ const CaseOverlay = styled.div`
             width: 30px;
             height: 30px;
             opacity: 0.8;
-            transition: all ease 1s;
             cursor: pointer;
             transform: scale(0.7);
             &:hover {
@@ -58,8 +54,8 @@ const CaseOverlay = styled.div`
 
 class CaseDetails extends Component {
     state = {
-        buffered: general.isMobile(),
-        show: false
+        buffered: true,
+        show: true
     }
     componentDidMount() {
         if (!general.isMobile()) {
