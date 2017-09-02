@@ -76,7 +76,6 @@ class CaseDetails extends Component {
                 this.player.play()
             }.bind(this)) */
             this.player.on('loaded', function(load) {
-                this.player.setVolume(0)
                 this.player.play()
             }.bind(this))
             setTimeout(()=>{
