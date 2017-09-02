@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import Logo from 'components/logo/logo'
 
 const Foot = styled.div`
     position: relative;
@@ -16,7 +15,7 @@ const Foot = styled.div`
             padding-left: 120px;
             display: inline-block;
             position: relative;
-            svg {
+            img {
                 position: absolute;
                 top: 50%;
                 left: 0px;
@@ -43,7 +42,7 @@ class Footer extends Component {
             <Foot>
                 <div className="foot-container">
                     <div className="contact-text">
-                        <Logo bcolor="#000000" tcolor="#ffffff" width="80" height="80" />
+                        <img src="images/logo4-dashed-black.svg" style={{width: 80, height: 80}} alt="logo" />
                         mail@dposounddesign.com <br />
                         +45 40 98 74 40<br />
                         Valdemarsgade 19B <br />
