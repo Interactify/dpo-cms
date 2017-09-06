@@ -8,8 +8,8 @@ const CaseOverlay = styled.div`
     position: fixed;
     top: 0px;
     left: 0px;
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 50%;
     z-index: 10;
     opacity: ${props => props.showCaseOverlay ? '1' : '0'};
     visibility: ${props => props.showCaseOverlay ? 'visible' : 'hidden'};
