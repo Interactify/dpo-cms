@@ -59,6 +59,7 @@ class CaseDetails extends Component {
     }
     componentDidMount() {
         if (!general.isMobile()) {
+            let o = this
             this.iframe = this.refs.vimeoIframe;
             this.player = new Player(this.iframe);
             /* this.player.on('progress', function(progress) {
@@ -78,6 +79,9 @@ class CaseDetails extends Component {
             this.player.on('loaded', function(load) {
                 this.player.play()
             }.bind(this))
+            this.player.on('ended', function() {
+                o.closeCase()
+            })
             setTimeout(()=>{
                 this.setState({show: true, buffered: true})
             },100)

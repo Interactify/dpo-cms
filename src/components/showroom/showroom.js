@@ -95,7 +95,7 @@ class ShowRoom extends Component {
                 <div className="item-container" key={`cases-${i}`}>
                     <Item delay={i * 300} onClick={(e) => { this.props.caseClick(dCase.vimeoID) }} className='item'>
                         <div className="description">
-                            <h1>{dCase.title}</h1>
+                            <h1 dangerouslySetInnerHTML={{__html: dCase.title}} />
                         </div>
                         <div className="backimage" style={{backgroundImage: `url(${encodeURI(dCase.image.replace('/cms/images/','/images/cms/475/'))})`}}/>
                     </Item>
