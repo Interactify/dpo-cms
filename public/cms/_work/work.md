@@ -1,7 +1,7 @@
 ---
 title: Studio
 subtitle: Contemporary and Innovative
-image: /cms/images/IMG_2428 2.jpg
+image: /cms/images/Skærmbillede 2017-09-07 kl. 13.10.14.png
 text: >-
   DPO Sound Design is a Copenhagen-based studio focusing on original music
   composition and contemporary sound design for arts and media. The studio,
@@ -19,6 +19,7 @@ text: >-
   fast: Turnaround time is usually 3-5 business days. For info and pricing,
   please get in touch for a chat and a personal quote.
 ---
+
 
 
 
