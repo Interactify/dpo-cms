@@ -1,9 +1,10 @@
 ---
 title: Sonic College <br> 'Interaktionsdesign'
 description: Music & Sound Design
-image: /cms/images/UC SYD_BLACK_RGB.png
+image: /cms/images/soniclogo2.jpg
 vimeoID: '233833799'
 ---
+
 
 
 
