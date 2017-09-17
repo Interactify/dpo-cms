@@ -1,8 +1,9 @@
 ---
 title: '''Imagine'''
 description: Music & Sound Design
-image: /cms/images/Imagine.png
+image: /cms/images/lilla1.jpg
 vimeoID: '234136662'
 ---
+
 
 
