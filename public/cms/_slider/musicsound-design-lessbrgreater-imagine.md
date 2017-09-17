@@ -1,7 +1,8 @@
 ---
-title: Music/Sound Design <br> 'Imagine'
+title: '''Imagine'''
 description: Music & Sound Design
 image: /cms/images/Imagine.png
 vimeoID: '234136662'
 ---
+
 
