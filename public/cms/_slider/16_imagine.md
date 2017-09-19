@@ -1,9 +1,10 @@
 ---
 title: Music <br> 'Imagine'
 description: Music & Sound Design
-image: /cms/images/Imagine.jpeg
+image: /cms/images/Structure.jpeg
 vimeoID: '234136662'
 ---
+
 
 
 
