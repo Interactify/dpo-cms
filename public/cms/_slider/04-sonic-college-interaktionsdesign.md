@@ -1,9 +1,10 @@
 ---
 title: Sonic College<br>Ident 1
 description: Music & Sound Design
-image: /cms/images/Terra - Volcano.jpg
+image: /cms/images/Skærmbillede 2017-09-19 kl. 16.57.36.png
 vimeoID: '233833799'
 ---
+
 
 
 
