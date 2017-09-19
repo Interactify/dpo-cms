@@ -1,9 +1,10 @@
 ---
-title: Music <br> 'Liquid'
+title: Music <br> 'Metallic'
 description: Music & Sound Design
-image: /cms/images/Liquid 1.jpg
+image: /cms/images/Metallic.jpg
 vimeoID: '234137187'
 ---
+
 
 
 
