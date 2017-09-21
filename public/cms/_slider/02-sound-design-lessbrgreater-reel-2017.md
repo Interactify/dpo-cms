@@ -1,9 +1,10 @@
 ---
 title: Sound Design<br>Reel 2017
 description: Sound Design
-image: /cms/images/Reel.jpg
+image: /cms/images/Reel Small.jpg
 vimeoID: '234299171'
 ---
+
 
 
 
