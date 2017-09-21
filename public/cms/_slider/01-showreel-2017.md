@@ -1,9 +1,10 @@
 ---
 title: Music<br>Reel 2017
 description: Music
-image: /cms/images/Showreel 1.jpg
+image: /cms/images/Music Reel Small.jpg
 vimeoID: '234302753'
 ---
+
 
 
 
