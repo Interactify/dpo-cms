@@ -1,9 +1,10 @@
 ---
 title: Music<br>'Imagine'
 description: Music & Sound Design
-image: /cms/images/Fly - Space.jpg
+image: /cms/images/Imagine Small.jpg
 vimeoID: '234136662'
 ---
+
 
 
 
