@@ -1,7 +1,7 @@
 ---
 title: Studio
 subtitle: Contemporary and Innovative
-image: /cms/images/Mic1.jpg
+image: /cms/images/Mic Small.jpg
 text: >-
   DPO Sound Design is a Copenhagen-based studio focusing on  contemporary music
   production and innovative sound design. The studio, founded in 2017, is owned
@@ -16,6 +16,7 @@ text: >-
   At DPO Sound Design we strive to surpass our clients expectations. For info
   and pricing, please get in touch for a chat and a personal quote.
 ---
+
 
 
 
