@@ -1,9 +1,10 @@
 ---
 title: Sound Design<br>'Underworld'
 description: Music & Sound Design
-image: /cms/images/Terra Lava.jpg
+image: /cms/images/Underworld Small.jpg
 vimeoID: '234137763'
 ---
+
 
 
 
