@@ -16,6 +16,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Description", name: "description", widget: "string", tagname: "h2"}
       - {label: "Image", name: "image", widget: "image", tagname: "img"}
       - {label: "Vimeo ID", name: "vimeoID", widget: "string", tagname: "div"}
+      - {label: "Slider", name: "showinslider", widget: "boolean"}
   - name: "section" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Section" # Used in the UI, ie.: "New Post"
     folder: "public/cms/_work" # The path to the folder where the documents are stored
