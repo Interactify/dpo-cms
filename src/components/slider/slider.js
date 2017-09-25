@@ -114,21 +114,23 @@ class Slider extends Component {
   }
   render() {
     let Slides = this.state.slides.map((dCase, i) => {
-      let image = dCase.image.replace('/cms/images/','/images/cms/1900/')
-      image = encodeURI(image)
-      let imageWebp = image.replace('.jpg','.webp')
-      return (
-        <Slide key={`case-${i}`} className="swiper-slide" bg={image} bgw={imageWebp}>
-          <div className="swiper-gradient"></div>
-          <WorkDetails>
-            <h1 dangerouslySetInnerHTML={{__html: dCase.title}} />
-            <span>{dCase.description}</span>
-            <div className="show-video">
-              <DpoButton t="Show video" margin="30px 0px 0px 0px" vimeoID={dCase.vimeoID} triggerCase={(e) => { this.props.caseClick(dCase.vimeoID) }} />
-            </div>
-          </WorkDetails>
-        </Slide>
-      )
+      if (dCase.showinslider) {
+        let image = dCase.image.replace('/cms/images/','/images/cms/1900/')
+        image = encodeURI(image)
+        let imageWebp = image.replace('.jpg','.webp')
+        return (
+          <Slide key={`case-${i}`} className="swiper-slide" bg={image} bgw={imageWebp}>
+            <div className="swiper-gradient"></div>
+            <WorkDetails>
+              <h1 dangerouslySetInnerHTML={{__html: dCase.title}} />
+              <span>{dCase.description}</span>
+              <div className="show-video">
+                <DpoButton t="Show video" margin="30px 0px 0px 0px" vimeoID={dCase.vimeoID} triggerCase={(e) => { this.props.caseClick(dCase.vimeoID) }} />
+              </div>
+            </WorkDetails>
+          </Slide>
+        )
+      }
     })
     return (
       <SlideC>
