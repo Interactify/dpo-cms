@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Menu from 'components/menu/menu'
+import Slider from 'components/slider/slider'
 import Work from 'components/work/work'
 import Footer from 'components/footer/footer'
 import CaseDetails from 'components/case-details/case-details'
@@ -117,11 +118,14 @@ class App extends Component {
       <AppDiv showSite={this.state.showSite}>
         <Menu dpoScroll={this.dpoScroll} home={this.refs.home} work={this.refs.work} contact={this.refs.contact} />
         {this.state.showCaseDetails ? <CaseDetails show={this.state.showCaseDetails} vimeoId={this.state.vimeoId} closeCase={this.closeCase} /> : ''}
+        <div id="slider">
+          <Slider cases={this.state.slides} ref="home" caseClick={this.triggerCase} triggerCase={this.triggerCase} />
+        </div>
         <div id="cases" ref="cases">
           <ShowRoom caseClick={this.triggerCase} showCases={this.state.showCases} cases={this.state.slides} />
         </div>
         <div id="work" ref="workclass">
-          <Work ref="work" showWork={this.state.showWork} title={Data._work[0].title} subtitle={Data._work[0].subtitle} image={Data._work[0].image} image={Data._work[0].image} text={Data._work[0].text} />
+          <Work ref="work" showWork={this.state.showWork} title={Data._work[0].title} subtitle={Data._work[0].subtitle} image={Data._work[0].image} text={Data._work[0].text} />
         </div>
         <div id="contact">
           <Footer ref="contact" />

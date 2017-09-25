@@ -33,6 +33,7 @@ const SlideC = styled.div`
   .swiper-container {
       width: 100%;
       height: 100vh;
+      margin-top: 115px;
   }
   .swiper-gradient {
       height: 100%;
@@ -120,10 +121,10 @@ class Slider extends Component {
         <Slide key={`case-${i}`} className="swiper-slide" bg={image} bgw={imageWebp}>
           <div className="swiper-gradient"></div>
           <WorkDetails>
-            <h1>{dCase.title}</h1>
+            <h1 dangerouslySetInnerHTML={{__html: dCase.title}} />
             <span>{dCase.description}</span>
             <div className="show-video">
-              <DpoButton t="Show video" margin="30px 0px 0px 0px" vimeoID={dCase.vimeoID} triggerCase={this.props.triggerCase} />
+              <DpoButton t="Show video" margin="30px 0px 0px 0px" vimeoID={dCase.vimeoID} triggerCase={(e) => { this.props.caseClick(dCase.vimeoID) }} />
             </div>
           </WorkDetails>
         </Slide>

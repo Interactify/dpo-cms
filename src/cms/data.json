@@ -1,126 +1,182 @@
 {
+  "_slider": [
+    {
+      "title": "Music<br>Reel 2017",
+      "description": "Music",
+      "image": "/cms/images/Music Reel Small.jpg",
+      "vimeoID": "234302753",
+      "contents": "{\"title\":\"Music<br>Reel 2017\",\"description\":\"Music\",\"image\":\"/cms/images/Music Reel Small.jpg\",\"vimeoID\":\"234302753\",\"contents\":\"\"}",
+      "id": "_slider__01-showreel-2017.json"
+    },
+    {
+      "title": "Sound Design<br>Reel 2017",
+      "description": "Sound Design",
+      "image": "/cms/images/Reel Small.jpg",
+      "vimeoID": "234299171",
+      "contents": "{\"title\":\"Sound Design<br>Reel 2017\",\"description\":\"Sound Design\",\"image\":\"/cms/images/Reel Small.jpg\",\"vimeoID\":\"234299171\",\"contents\":\"\"}",
+      "id": "_slider__02-sound-design-lessbrgreater-reel-2017.json"
+    },
+    {
+      "title": "Karl Fazer<br>'Unforgettable'",
+      "description": "Sound Design w/ Kevin Koch",
+      "image": "/cms/images/Skærmbillede 2017-09-14 kl. 15.55.30.png",
+      "vimeoID": "214193890",
+      "contents": "{\"title\":\"Karl Fazer<br>'Unforgettable'\",\"description\":\"Sound Design w/ Kevin Koch\",\"image\":\"/cms/images/Skærmbillede 2017-09-14 kl. 15.55.30.png\",\"vimeoID\":\"214193890\",\"contents\":\"\"}",
+      "id": "_slider__03-karl-fazer-lessbr-greater-unforgettable.json"
+    },
+    {
+      "title": "Sonic College<br>Ident 1",
+      "description": "Music & Sound Design",
+      "image": "/cms/images/Skærmbillede 2017-09-19 kl. 16.57.36.png",
+      "vimeoID": "233833799",
+      "contents": "{\"title\":\"Sonic College<br>Ident 1\",\"description\":\"Music & Sound Design\",\"image\":\"/cms/images/Skærmbillede 2017-09-19 kl. 16.57.36.png\",\"vimeoID\":\"233833799\",\"contents\":\"\"}",
+      "id": "_slider__04-sonic-college-interaktionsdesign.json"
+    },
+    {
+      "title": "Sonic College<br>Ident 2",
+      "description": "Sound Design",
+      "image": "/cms/images/Skærmbillede 2017-09-16 kl. 16.17.41 2.png",
+      "vimeoID": "233971754",
+      "contents": "{\"title\":\"Sonic College<br>Ident 2\",\"description\":\"Sound Design\",\"image\":\"/cms/images/Skærmbillede 2017-09-16 kl. 16.17.41 2.png\",\"vimeoID\":\"233971754\",\"contents\":\"\"}",
+      "id": "_slider__05-sonic-college-lessbrgreater-ident-2.json"
+    },
+    {
+      "title": "Sonic College<br>Ident 3",
+      "description": "Sound Design",
+      "image": "/cms/images/Skærmbillede 2017-09-16 kl. 16.17.41.png",
+      "vimeoID": "234122822",
+      "contents": "{\"title\":\"Sonic College<br>Ident 3\",\"description\":\"Sound Design\",\"image\":\"/cms/images/Skærmbillede 2017-09-16 kl. 16.17.41.png\",\"vimeoID\":\"234122822\",\"contents\":\"\"}",
+      "id": "_slider__061-sonic-college-lessbrgreater-ident-3.json"
+    },
+    {
+      "title": "3-Stjernet<br>'Hinkesten'",
+      "description": "Music",
+      "image": "/cms/images/Skærmbillede 2017-09-14 kl. 16.20.11.png",
+      "vimeoID": "233832920",
+      "contents": "{\"title\":\"3-Stjernet<br>'Hinkesten'\",\"description\":\"Music\",\"image\":\"/cms/images/Skærmbillede 2017-09-14 kl. 16.20.11.png\",\"vimeoID\":\"233832920\",\"contents\":\"\"}",
+      "id": "_slider__07-3-stjernet-lessbr-greater-hinkesten.json"
+    },
+    {
+      "title": "3-Stjernet<br>'Hulahop'",
+      "description": "Music",
+      "image": "/cms/images/Skærmbillede 2017-09-14 kl. 16.07.41.png",
+      "vimeoID": "233833072",
+      "contents": "{\"title\":\"3-Stjernet<br>'Hulahop'\",\"description\":\"Music\",\"image\":\"/cms/images/Skærmbillede 2017-09-14 kl. 16.07.41.png\",\"vimeoID\":\"233833072\",\"contents\":\"\"}",
+      "id": "_slider__08-3-stjernet-hulahop.json"
+    },
+    {
+      "title": "3-Stjernet<br>'Sværd'",
+      "description": "Music",
+      "image": "/cms/images/Skærmbillede 2017-09-14 kl. 16.07.17.png",
+      "vimeoID": "233833121",
+      "contents": "{\"title\":\"3-Stjernet<br>'Sværd'\",\"description\":\"Music\",\"image\":\"/cms/images/Skærmbillede 2017-09-14 kl. 16.07.17.png\",\"vimeoID\":\"233833121\",\"contents\":\"\"}",
+      "id": "_slider__09-3-stjernet-lessbr-greater-svaerd.json"
+    },
+    {
+      "title": "Music<br>'Voyage'",
+      "description": "Music & Sound Design",
+      "image": "/cms/images/Voyage Small.jpg",
+      "vimeoID": "234137947",
+      "contents": "{\"title\":\"Music<br>'Voyage'\",\"description\":\"Music & Sound Design\",\"image\":\"/cms/images/Voyage Small.jpg\",\"vimeoID\":\"234137947\",\"contents\":\"\"}",
+      "id": "_slider__10-1-music-lessbrgreater-voyage.json"
+    },
+    {
+      "title": "Music<br>'Imagine'",
+      "description": "Music & Sound Design",
+      "image": "/cms/images/Imagine Small.jpg",
+      "vimeoID": "234136662",
+      "contents": "{\"title\":\"Music<br>'Imagine'\",\"description\":\"Music & Sound Design\",\"image\":\"/cms/images/Imagine Small.jpg\",\"vimeoID\":\"234136662\",\"contents\":\"\"}",
+      "id": "_slider__10-2_imagine.json"
+    },
+    {
+      "title": "Music<br>'Noir'",
+      "description": "Music & Sound Design",
+      "image": "/cms/images/Noir Small.jpg",
+      "vimeoID": "234137216",
+      "contents": "{\"title\":\"Music<br>'Noir'\",\"description\":\"Music & Sound Design\",\"image\":\"/cms/images/Noir Small.jpg\",\"vimeoID\":\"234137216\",\"contents\":\"\"}",
+      "id": "_slider__10-3-musicsound-design-lessbrgreater-noir.json"
+    },
+    {
+      "title": "Sound Design<br>'Thunder'",
+      "description": "Music & Sound Design",
+      "image": "/cms/images/Thunder Small.jpg",
+      "vimeoID": "234137524",
+      "contents": "{\"title\":\"Sound Design<br>'Thunder'\",\"description\":\"Music & Sound Design\",\"image\":\"/cms/images/Thunder Small.jpg\",\"vimeoID\":\"234137524\",\"contents\":\"\"}",
+      "id": "_slider__10-musicsound-design-lessbrgreater-thunder.json"
+    },
+    {
+      "title": "Sound Design<br>'Underworld'",
+      "description": "Music & Sound Design",
+      "image": "/cms/images/Underworld Small.jpg",
+      "vimeoID": "234137763",
+      "contents": "{\"title\":\"Sound Design<br>'Underworld'\",\"description\":\"Music & Sound Design\",\"image\":\"/cms/images/Underworld Small.jpg\",\"vimeoID\":\"234137763\",\"contents\":\"\"}",
+      "id": "_slider__11-musicsound-design-lessbrgreater-underworld.json"
+    },
+    {
+      "title": "Sound Design<br>'Engines'",
+      "description": "Music & Sound Design",
+      "image": "/cms/images/Engines Small.jpg",
+      "vimeoID": "234134979",
+      "contents": "{\"title\":\"Sound Design<br>'Engines'\",\"description\":\"Music & Sound Design\",\"image\":\"/cms/images/Engines Small.jpg\",\"vimeoID\":\"234134979\",\"contents\":\"\"}",
+      "id": "_slider__12-musicsound-design-lessbrgreater-cymatics.json"
+    },
+    {
+      "title": "Ident<br>'Atoms'",
+      "description": "Music & Sound Design",
+      "image": "/cms/images/Atoms Small.jpg",
+      "vimeoID": "234134910",
+      "contents": "{\"title\":\"Ident<br>'Atoms'\",\"description\":\"Music & Sound Design\",\"image\":\"/cms/images/Atoms Small.jpg\",\"vimeoID\":\"234134910\",\"contents\":\"\"}",
+      "id": "_slider__13-ident-lessbrgreater-atoms.json"
+    },
+    {
+      "title": "Ident<br>'Terra'",
+      "description": "Music & Sound Design",
+      "image": "/cms/images/Terra Small.jpg",
+      "vimeoID": "234137452",
+      "contents": "{\"title\":\"Ident<br>'Terra'\",\"description\":\"Music & Sound Design\",\"image\":\"/cms/images/Terra Small.jpg\",\"vimeoID\":\"234137452\",\"contents\":\"\"}",
+      "id": "_slider__14-ident-lessbrgreater-terra.json"
+    },
+    {
+      "title": "Music<br>'Titan'",
+      "description": "Music & Sound Design",
+      "image": "/cms/images/Titan Small.jpg",
+      "vimeoID": "234137729",
+      "contents": "{\"title\":\"Music<br>'Titan'\",\"description\":\"Music & Sound Design\",\"image\":\"/cms/images/Titan Small.jpg\",\"vimeoID\":\"234137729\",\"contents\":\"\"}",
+      "id": "_slider__18-musicsound-design-lessbrgreater-titan.json"
+    },
+    {
+      "title": "Music<br>'Arcade'",
+      "description": "Music & Sound Design",
+      "image": "/cms/images/Arcade Small.jpg",
+      "vimeoID": "234134838",
+      "contents": "{\"title\":\"Music<br>'Arcade'\",\"description\":\"Music & Sound Design\",\"image\":\"/cms/images/Arcade Small.jpg\",\"vimeoID\":\"234134838\",\"contents\":\"\"}",
+      "id": "_slider__19-musicsound-design-lessbrgreater-arcade.json"
+    },
+    {
+      "title": "Music<br>'Fly'",
+      "description": "Music & Sound Design",
+      "image": "/cms/images/Fly Small.jpg",
+      "vimeoID": "234135370",
+      "contents": "{\"title\":\"Music<br>'Fly'\",\"description\":\"Music & Sound Design\",\"image\":\"/cms/images/Fly Small.jpg\",\"vimeoID\":\"234135370\",\"contents\":\"\"}",
+      "id": "_slider__21-musicsound-design-lessbrgreater-fly.json"
+    },
+    {
+      "title": "Music<br>'Helix'",
+      "description": "Music & Sound Design",
+      "image": "/cms/images/Helix Small.jpg",
+      "vimeoID": "234135889",
+      "contents": "{\"title\":\"Music<br>'Helix'\",\"description\":\"Music & Sound Design\",\"image\":\"/cms/images/Helix Small.jpg\",\"vimeoID\":\"234135889\",\"contents\":\"\"}",
+      "id": "_slider__22-musicsound-design-lessbrgreater-helix.json"
+    }
+  ],
   "_work": [
     {
       "title": "Studio",
       "subtitle": "Contemporary and Innovative",
-      "image": "/cms/images/genelec.jpg",
-      "text": "DPO Sound Design is a Copenhagen-based studio focusing on original music composition and contemporary sound design for arts and media. The studio, founded in 2017, is owned and operated by Daniel Porcelli. Porcelli is currently finishing a Bachelor of Arts in Media Sonic Communication while working as a forward thinking music producer and sound designer.\n\nDPO Sound Design has recently done a number of music and sound design showcases to brand itself as a go-to-studio for innovative sound design and music for forward thinking brands.\n\nAt DPO Sound Design we strive to surpass our clients expectations and we work fast: Turnaround time is usually 3-5 business days. For info and pricing, please get in touch for a chat and a personal quote.",
-      "contents": "{\"title\":\"Studio\",\"subtitle\":\"Contemporary and Innovative\",\"image\":\"/cms/images/genelec.jpg\",\"text\":\"DPO Sound Design is a Copenhagen-based studio focusing on original music composition and contemporary sound design for arts and media. The studio, founded in 2017, is owned and operated by Daniel Porcelli. Porcelli is currently finishing a Bachelor of Arts in Media Sonic Communication while working as a forward thinking music producer and sound designer.\\n\\nDPO Sound Design has recently done a number of music and sound design showcases to brand itself as a go-to-studio for innovative sound design and music for forward thinking brands.\\n\\nAt DPO Sound Design we strive to surpass our clients expectations and we work fast: Turnaround time is usually 3-5 business days. For info and pricing, please get in touch for a chat and a personal quote.\",\"contents\":\"\"}",
+      "image": "/cms/images/MicSmall.jpg",
+      "text": "DPO Sound Design is a Copenhagen-based studio focusing on  contemporary music production and innovative sound design. The studio, founded in 2017, is owned and operated by Daniel Porcelli. Porcelli is currently finishing a Bachelor of Arts in Media Sonic Communication / Sound Design.\n\nDPO Sound Design specialises in producing cinematic music, modern sound design and audio branding for advertising, film, trailers, art and video games.\n\nAt DPO Sound Design we strive to surpass our clients expectations. For info and pricing, please get in touch for a chat and a personal quote.",
+      "contents": "{\"title\":\"Studio\",\"subtitle\":\"Contemporary and Innovative\",\"image\":\"/cms/images/MicSmall.jpg\",\"text\":\"DPO Sound Design is a Copenhagen-based studio focusing on  contemporary music production and innovative sound design. The studio, founded in 2017, is owned and operated by Daniel Porcelli. Porcelli is currently finishing a Bachelor of Arts in Media Sonic Communication / Sound Design.\\n\\nDPO Sound Design specialises in producing cinematic music, modern sound design and audio branding for advertising, film, trailers, art and video games.\\n\\nAt DPO Sound Design we strive to surpass our clients expectations. For info and pricing, please get in touch for a chat and a personal quote.\",\"contents\":\"\"}",
       "id": "_work__work.json"
-    }
-  ],
-  "_slider": [
-    {
-      "title": "Ash Thorp - Adobe Remix",
-      "description": "Music & Sound Design, 2017. Not Commissioned.",
-      "image": "/cms/images/Skærmbillede 2017-08-30 kl. 18.19.50.png",
-      "vimeoID": "229152426",
-      "contents": "{\"title\":\"Ash Thorp - Adobe Remix\",\"description\":\"Music & Sound Design, 2017. Not Commissioned.\",\"image\":\"/cms/images/Skærmbillede 2017-08-30 kl. 18.19.50.png\",\"vimeoID\":\"229152426\",\"contents\":\"\"}",
-      "id": "_slider__ash-thorp-adobe-remix.json"
-    },
-    {
-      "title": "Audi A5 - Pure Imagination",
-      "description": "Music & Sound Design, 2017. Not Commissioned.",
-      "image": "/cms/images/Skærmbillede 2017-08-30 kl. 12.12.37.png",
-      "vimeoID": "227064130",
-      "contents": "{\"title\":\"Audi A5 - Pure Imagination\",\"description\":\"Music & Sound Design, 2017. Not Commissioned.\",\"image\":\"/cms/images/Skærmbillede 2017-08-30 kl. 12.12.37.png\",\"vimeoID\":\"227064130\",\"contents\":\"\"}",
-      "id": "_slider__audi-a5-pure-imagination.json"
-    },
-    {
-      "title": "Jordan Superfly 3",
-      "description": "Music & Sound Design, 2017. Not Commissioned.",
-      "image": "/cms/images/Skærmbillede 2017-08-30 kl. 12.15.48.png",
-      "vimeoID": "225744752",
-      "contents": "{\"title\":\"Jordan Superfly 3\",\"description\":\"Music & Sound Design, 2017. Not Commissioned.\",\"image\":\"/cms/images/Skærmbillede 2017-08-30 kl. 12.15.48.png\",\"vimeoID\":\"225744752\",\"contents\":\"\"}",
-      "id": "_slider__jordan-superfly-3.json"
-    },
-    {
-      "title": "Lamborghini - Birth",
-      "description": "Music & Sound Design, 2017. Not Commissioned.",
-      "image": "/cms/images/Lambo 2.png",
-      "vimeoID": "225821402",
-      "contents": "{\"title\":\"Lamborghini - Birth\",\"description\":\"Music & Sound Design, 2017. Not Commissioned.\",\"image\":\"/cms/images/Lambo 2.png\",\"vimeoID\":\"225821402\",\"contents\":\"\"}",
-      "id": "_slider__lamborghini-birth.json"
-    },
-    {
-      "title": "Lancôme Grandiose",
-      "description": "Music & Sound Design, 2017. Not Commissioned.",
-      "image": "/cms/images/Grandiose 1.png",
-      "vimeoID": "218343706",
-      "contents": "{\"title\":\"Lancôme Grandiose\",\"description\":\"Music & Sound Design, 2017. Not Commissioned.\",\"image\":\"/cms/images/Grandiose 1.png\",\"vimeoID\":\"218343706\",\"contents\":\"\"}",
-      "id": "_slider__lancome-grandiose.json"
-    },
-    {
-      "title": "Michael Rigley - Metric",
-      "description": "Music & Sound Design, 2017. Not Commissioned.",
-      "image": "/cms/images/Metric 2.png",
-      "vimeoID": "228642312",
-      "contents": "{\"title\":\"Michael Rigley - Metric\",\"description\":\"Music & Sound Design, 2017. Not Commissioned.\",\"image\":\"/cms/images/Metric 2.png\",\"vimeoID\":\"228642312\",\"contents\":\"\"}",
-      "id": "_slider__michael-rigley-metric.json"
-    },
-    {
-      "title": "Nike ACG",
-      "description": "Music & Sound Design, 2017. Not Commissioned.",
-      "image": "/cms/images/nike-2.jpg",
-      "vimeoID": "216511321",
-      "contents": "{\"title\":\"Nike ACG\",\"description\":\"Music & Sound Design, 2017. Not Commissioned.\",\"image\":\"/cms/images/nike-2.jpg\",\"vimeoID\":\"216511321\",\"contents\":\"\"}",
-      "id": "_slider__nike-acg.json"
-    },
-    {
-      "title": "Nike Flyknit",
-      "description": "Music & Sound Design, 2017. Not Commissioned.",
-      "image": "/cms/images/nike-1.jpg",
-      "vimeoID": "222166226",
-      "contents": "{\"title\":\"Nike Flyknit\",\"description\":\"Music & Sound Design, 2017. Not Commissioned.\",\"image\":\"/cms/images/nike-1.jpg\",\"vimeoID\":\"222166226\",\"contents\":\"\"}",
-      "id": "_slider__nike-flyknit.json"
-    },
-    {
-      "title": "Nike ACG - Hyperspeed Terraform",
-      "description": "Music & Sound Design, 2017. Not Commissioned.",
-      "image": "/cms/images/Hyper 1.png",
-      "vimeoID": "222892696",
-      "contents": "{\"title\":\"Nike ACG - Hyperspeed Terraform\",\"description\":\"Music & Sound Design, 2017. Not Commissioned.\",\"image\":\"/cms/images/Hyper 1.png\",\"vimeoID\":\"222892696\",\"contents\":\"\"}",
-      "id": "_slider__nike-hyperspeed-terraform.json"
-    },
-    {
-      "title": "Nvidia - Titanium",
-      "description": "Music & Sound Design, 2017. Not Commissioned.",
-      "image": "/cms/images/Titanium.png",
-      "vimeoID": "223796279",
-      "contents": "{\"title\":\"Nvidia - Titanium\",\"description\":\"Music & Sound Design, 2017. Not Commissioned.\",\"image\":\"/cms/images/Titanium.png\",\"vimeoID\":\"223796279\",\"contents\":\"\"}",
-      "id": "_slider__nvidia-titanium.json"
-    },
-    {
-      "title": "PR - Audio Branding",
-      "description": "Music & Sound Design, 2017. Not Commissioned.",
-      "image": "/cms/images/Skærmbillede 2017-08-30 kl. 12.09.15.png",
-      "vimeoID": "222528971",
-      "contents": "{\"title\":\"PR - Audio Branding\",\"description\":\"Music & Sound Design, 2017. Not Commissioned.\",\"image\":\"/cms/images/Skærmbillede 2017-08-30 kl. 12.09.15.png\",\"vimeoID\":\"222528971\",\"contents\":\"\"}",
-      "id": "_slider__pr-brand-identity.json"
-    },
-    {
-      "title": "Samsung Galaxy",
-      "description": "Music & Sound Design, 2016. Not Commissioned.",
-      "image": "/cms/images/Skærmbillede 2017-08-30 kl. 12.07.49.png",
-      "vimeoID": "217037200",
-      "contents": "{\"title\":\"Samsung Galaxy\",\"description\":\"Music & Sound Design, 2016. Not Commissioned.\",\"image\":\"/cms/images/Skærmbillede 2017-08-30 kl. 12.07.49.png\",\"vimeoID\":\"217037200\",\"contents\":\"\"}",
-      "id": "_slider__samsung-galaxy.json"
-    },
-    {
-      "title": "Showreel 2017",
-      "description": "Music & Sound Design, 2017. Not Commissioned.",
-      "image": "/cms/images/Skærmbillede 2017-08-30 kl. 18.17.03.png",
-      "vimeoID": "227876786",
-      "contents": "{\"title\":\"Showreel 2017\",\"description\":\"Music & Sound Design, 2017. Not Commissioned.\",\"image\":\"/cms/images/Skærmbillede 2017-08-30 kl. 18.17.03.png\",\"vimeoID\":\"227876786\",\"contents\":\"\"}",
-      "id": "_slider__showreel-2017.json"
-    },
-    {
-      "title": "Barnaby Roper - The Dress",
-      "description": "Music & Sound Design, 2017. Not Commissioned.",
-      "image": "/cms/images/Skærmbillede 2017-08-29 kl. 13.44.09.png",
-      "vimeoID": "219007162",
-      "contents": "{\"title\":\"Barnaby Roper - The Dress\",\"description\":\"Music & Sound Design, 2017. Not Commissioned.\",\"image\":\"/cms/images/Skærmbillede 2017-08-29 kl. 13.44.09.png\",\"vimeoID\":\"219007162\",\"contents\":\"\"}",
-      "id": "_slider__the-dress.json"
     }
   ]
 }

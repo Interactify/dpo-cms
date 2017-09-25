@@ -34,7 +34,7 @@ const CaseOverlay = styled.div`
     }
     .close {
         position: absolute;
-        right: 50px;
+        left: 10px;
         top: 10px;
         font-size: 30px;
         z-index: 12;

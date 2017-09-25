@@ -5,6 +5,7 @@
   "dependencies": {
     "@vimeo/player": "^2.1.0",
     "bootstrap-grid": "^2.0.1",
+    "gm": "^1.23.0",
     "imagemin": "^5.3.1",
     "imagemin-gm": "^1.0.3",
     "imagemin-jpegtran": "^5.0.2",
@@ -29,7 +30,7 @@
     "eject": "react-scripts eject",
     "interactify-cms": "node scripts/mdtojson.js",
     "interactify-defer": "yarn run delete-map-files && yarn run delete-references-to-map-files && yarn run defer-js",
-    "interactify-optimize": "node scripts/optimize.js",
+    "interactify-optimize": "node scripts/optimize-test.js",
     "delete-map-files": "find ./build -name '*.map' -delete",
     "delete-references-to-map-files": "find ./build -type f -name '*.html' -exec sed -i -E 's/<link.*rel=\"stylesheet\">//' {} +",
     "defer-js": "find ./build -type f -name '*.html' -exec sed -i -E 's/.js\"><\\/script>/.js\" defer=\"defer\"><\\/script>/g' {} +"

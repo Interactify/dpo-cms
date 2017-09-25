@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import Logo from 'components/logo/logo'
 import {media} from 'functions/media-query'
 
 const M = styled.div`
@@ -17,6 +16,7 @@ const M = styled.div`
         padding-bottom: 30px;
         max-height: 220px;
     `}
+    top: 0px;
     left: 0px;
     width: 100%;
     z-index: 10;
