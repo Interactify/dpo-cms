@@ -4,9 +4,16 @@ import styled from 'styled-components'
 const Foot = styled.div`
     position: relative;
     .foot-container {
-        padding: 120px 0px;
+        padding: 120px 0px 60px 0px;
         background-color: #ffffff;
         text-align: center;
+        .social {
+            padding-top: 40px;
+            img {
+                width: 30px;
+                margin: 10px;
+            }
+        }
         .contact-text {
             color: #000000;
             font-size: 13px;
@@ -48,6 +55,11 @@ class Footer extends Component {
                         Valdemarsgade 19B <br />
                         1665 Copenhagen V, Denmark<br />
                         VAT: DK38274716
+                    </div>
+                    <div className="social">
+                        <a href="#"><img src="images/facebook.svg" alt="facebook"/></a>
+                        <a href="#"><img src="images/linkedin.svg" alt="facebook"/></a>
+                        <a href="#"><img src="images/vimeo.svg" alt="facebook"/></a>
                     </div>
                 </div>
             </Foot>

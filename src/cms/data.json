@@ -1,13 +1,15 @@
 {
-  "_slider": [
+  "_work": [
     {
-      "title": "Music<br>Reel 2017",
-      "description": "Music",
-      "image": "/cms/images/Music Reel Small.jpg",
-      "vimeoID": "234302753",
-      "contents": "{\"title\":\"Music<br>Reel 2017\",\"description\":\"Music\",\"image\":\"/cms/images/Music Reel Small.jpg\",\"vimeoID\":\"234302753\",\"contents\":\"\"}",
-      "id": "_slider__01-showreel-2017.json"
-    },
+      "title": "Studio",
+      "subtitle": "Contemporary and Innovative",
+      "image": "/cms/images/MicSmall.jpg",
+      "text": "DPO Sound Design is a Copenhagen-based studio focusing on  contemporary music production and innovative sound design. The studio, founded in 2017, is owned and operated by Daniel Porcelli. Porcelli is currently finishing a Bachelor of Arts in Media Sonic Communication / Sound Design.\n\nDPO Sound Design specialises in producing cinematic music, modern sound design and audio branding for advertising, film, trailers, art and video games.\n\nAt DPO Sound Design we strive to surpass our clients expectations. For info and pricing, please get in touch for a chat and a personal quote.",
+      "contents": "{\"title\":\"Studio\",\"subtitle\":\"Contemporary and Innovative\",\"image\":\"/cms/images/MicSmall.jpg\",\"text\":\"DPO Sound Design is a Copenhagen-based studio focusing on  contemporary music production and innovative sound design. The studio, founded in 2017, is owned and operated by Daniel Porcelli. Porcelli is currently finishing a Bachelor of Arts in Media Sonic Communication / Sound Design.\\n\\nDPO Sound Design specialises in producing cinematic music, modern sound design and audio branding for advertising, film, trailers, art and video games.\\n\\nAt DPO Sound Design we strive to surpass our clients expectations. For info and pricing, please get in touch for a chat and a personal quote.\",\"contents\":\"\"}",
+      "id": "_work__work.json"
+    }
+  ],
+  "_slider": [
     {
       "title": "Sound Design<br>Reel 2017",
       "description": "Sound Design",
@@ -15,6 +17,14 @@
       "vimeoID": "234299171",
       "contents": "{\"title\":\"Sound Design<br>Reel 2017\",\"description\":\"Sound Design\",\"image\":\"/cms/images/Reel Small.jpg\",\"vimeoID\":\"234299171\",\"contents\":\"\"}",
       "id": "_slider__02-sound-design-lessbrgreater-reel-2017.json"
+    },
+    {
+      "title": "Music<br>Reel 2017",
+      "description": "Music",
+      "image": "/cms/images/Music Reel Small.jpg",
+      "vimeoID": "234302753",
+      "contents": "{\"title\":\"Music<br>Reel 2017\",\"description\":\"Music\",\"image\":\"/cms/images/Music Reel Small.jpg\",\"vimeoID\":\"234302753\",\"contents\":\"\"}",
+      "id": "_slider__01-showreel-2017.json"
     },
     {
       "title": "Karl Fazer<br>'Unforgettable'",
@@ -157,7 +167,8 @@
       "description": "Music & Sound Design",
       "image": "/cms/images/Fly Small.jpg",
       "vimeoID": "234135370",
-      "contents": "{\"title\":\"Music<br>'Fly'\",\"description\":\"Music & Sound Design\",\"image\":\"/cms/images/Fly Small.jpg\",\"vimeoID\":\"234135370\",\"contents\":\"\"}",
+      "showinslider": true,
+      "contents": "{\"title\":\"Music<br>'Fly'\",\"description\":\"Music & Sound Design\",\"image\":\"/cms/images/Fly Small.jpg\",\"vimeoID\":\"234135370\",\"showinslider\":true,\"contents\":\"\"}",
       "id": "_slider__21-musicsound-design-lessbrgreater-fly.json"
     },
     {
@@ -165,18 +176,9 @@
       "description": "Music & Sound Design",
       "image": "/cms/images/Helix Small.jpg",
       "vimeoID": "234135889",
-      "contents": "{\"title\":\"Music<br>'Helix'\",\"description\":\"Music & Sound Design\",\"image\":\"/cms/images/Helix Small.jpg\",\"vimeoID\":\"234135889\",\"contents\":\"\"}",
+      "showinslider": true,
+      "contents": "{\"title\":\"Music<br>'Helix'\",\"description\":\"Music & Sound Design\",\"image\":\"/cms/images/Helix Small.jpg\",\"vimeoID\":\"234135889\",\"showinslider\":true,\"contents\":\"\"}",
       "id": "_slider__22-musicsound-design-lessbrgreater-helix.json"
-    }
-  ],
-  "_work": [
-    {
-      "title": "Studio",
-      "subtitle": "Contemporary and Innovative",
-      "image": "/cms/images/MicSmall.jpg",
-      "text": "DPO Sound Design is a Copenhagen-based studio focusing on  contemporary music production and innovative sound design. The studio, founded in 2017, is owned and operated by Daniel Porcelli. Porcelli is currently finishing a Bachelor of Arts in Media Sonic Communication / Sound Design.\n\nDPO Sound Design specialises in producing cinematic music, modern sound design and audio branding for advertising, film, trailers, art and video games.\n\nAt DPO Sound Design we strive to surpass our clients expectations. For info and pricing, please get in touch for a chat and a personal quote.",
-      "contents": "{\"title\":\"Studio\",\"subtitle\":\"Contemporary and Innovative\",\"image\":\"/cms/images/MicSmall.jpg\",\"text\":\"DPO Sound Design is a Copenhagen-based studio focusing on  contemporary music production and innovative sound design. The studio, founded in 2017, is owned and operated by Daniel Porcelli. Porcelli is currently finishing a Bachelor of Arts in Media Sonic Communication / Sound Design.\\n\\nDPO Sound Design specialises in producing cinematic music, modern sound design and audio branding for advertising, film, trailers, art and video games.\\n\\nAt DPO Sound Design we strive to surpass our clients expectations. For info and pricing, please get in touch for a chat and a personal quote.\",\"contents\":\"\"}",
-      "id": "_work__work.json"
     }
   ]
 }
