@@ -33,7 +33,7 @@ const SlideC = styled.div`
   .swiper-container {
       width: 100%;
       height: 100vh;
-      margin-top: 115px;
+      /* margin-top: 115px; */
   }
   .swiper-gradient {
       height: 100%;

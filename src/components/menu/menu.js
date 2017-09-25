@@ -174,7 +174,7 @@ class Menu extends Component {
         menuColor: null,
         bcolor: '#ffffff',
         tcolor: '#000000',
-        backgroundColor: '#000000',
+        backgroundColor: '',
         top: '',
         showMobileMenu: false
     }
@@ -182,6 +182,30 @@ class Menu extends Component {
         this.setState({
             showMobileMenu: !this.state.showMobileMenu
         })
+    }
+    componentDidMount() {
+        window.addEventListener('scroll', (e) => {
+            var rect = document.getElementsByClassName("swiper-container")[0].getBoundingClientRect()
+            if (rect.bottom <= 64) {
+                if (this.state.backgroundColor !== '#000000') {
+                    this.setState({
+                        bcolor: '#ffffff',
+                        tcolor: '#000000',
+                        backgroundColor: '#000000',
+                        top: '10px'
+                    })
+                }
+            } else {
+                if (this.state.backgroundColor !== '') {
+                    this.setState({
+                        bcolor: '#ffffff',
+                        tcolor: '#000000',
+                        backgroundColor: '',
+                        top: ''
+                    })
+                }
+            }
+        }, {passive: true})
     }
     render() {
         return (
