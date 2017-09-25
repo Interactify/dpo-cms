@@ -11,6 +11,7 @@ const CaseOverlay = styled.div`
     width: 100%;
     height: 100%;
     z-index: 10;
+    transition: ease 1s all;
     opacity: ${props => props.showCaseOverlay ? '1' : '0'};
     visibility: ${props => props.showCaseOverlay ? 'visible' : 'hidden'};
     .case-video {
@@ -85,9 +86,17 @@ class CaseDetails extends Component {
             setTimeout(()=>{
                 this.setState({show: true, buffered: true})
             },100)
+            document.addEventListener("keydown", this.handleKeyDown.bind(this));
         } else {
             this.setState({show: true})
         }
+    }
+    handleKeyDown = (evt) => {
+        evt = evt || window.event;
+        if (evt.keyCode == 27) {
+            this.props.closeCase()
+        }
+        document.removeEventListener("keydown", this.handleKeyDown.bind(this));
     }
     closeCase = () => {
         this.setState({show: false},()=>{
