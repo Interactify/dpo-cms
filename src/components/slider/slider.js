@@ -125,7 +125,7 @@ class Slider extends Component {
               <h1 dangerouslySetInnerHTML={{__html: dCase.title}} />
               <span>{dCase.description}</span>
               <div className="show-video">
-                <DpoButton t="Show video" margin="30px 0px 0px 0px" vimeoID={dCase.vimeoID} triggerCase={(e) => { this.props.caseClick(dCase.vimeoID) }} />
+                <DpoButton t="Play video" margin="30px 0px 0px 0px" vimeoID={dCase.vimeoID} triggerCase={(e) => { this.props.caseClick(dCase.vimeoID) }} />
               </div>
             </WorkDetails>
           </Slide>
