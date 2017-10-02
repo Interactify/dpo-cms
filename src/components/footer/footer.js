@@ -57,9 +57,9 @@ class Footer extends Component {
                         VAT: DK38274716
                     </div>
                     <div className="social">
-                        <a href="#"><img src="images/facebook.svg" alt="facebook"/></a>
-                        <a href="#"><img src="images/linkedin.svg" alt="facebook"/></a>
-                        <a href="#"><img src="images/vimeo.svg" alt="facebook"/></a>
+                        <a href="https://www.facebook.com/dposounddesign/" target="_blank"><img src="images/facebook.svg" alt="facebook"/></a>
+                        <a href="https://www.linkedin.com/in/dposounddesign/" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn"/></a>
+                        <a href="https://vimeo.com/dposounddesign" target="_blank"><img src="images/vimeo.svg" alt="Vimeo"/></a>
                     </div>
                 </div>
             </Foot>

@@ -76,6 +76,7 @@ class App extends Component {
   }
 
   scrollTo = (element, to, duration) => {
+    console.log(to)
     if (duration <= 0) return;
     var difference = to - element.scrollTop;
     var perTick = difference / duration * 10;
@@ -85,6 +86,27 @@ class App extends Component {
       if (element.scrollTop === to) return;
       this.scrollTo(element, to, duration - 10);
     }.bind(this), 10);
+  }
+  animationScroll = (elementY, duration) => {
+    var startingY = window.pageYOffset  
+    var diff = elementY - startingY  
+    var start
+  
+    // Bootstrap our animation - it will get called right before next frame shall be rendered.
+    window.requestAnimationFrame(function step(timestamp) {
+      if (!start) start = timestamp
+      // Elapsed miliseconds since start of scrolling.
+      var time = timestamp - start
+      // Get percent of completion in range [0, 1].
+      var percent = Math.min(time / duration, 1)
+  
+      window.scrollTo(0, startingY + diff * percent)
+  
+      // Proceed with animation as long as we wanted it to.
+      if (time < duration) {
+        window.requestAnimationFrame(step)
+      }
+    })
   }
   handleScroll = () => {
     this.scrollTo(document.body, 1000, 2000)
@@ -101,7 +123,8 @@ class App extends Component {
     let element = document.getElementById(id).getBoundingClientRect(),
     bElem = document.body.getBoundingClientRect(),
     offset = element.top - bElem.top;
-    this.scrollTo(document.body, offset - 100, duration)
+    //this.scrollTo(document.body, offset - 100, duration)
+    this.animationScroll(offset - 100, duration)
   }
   componentWillMount() {
     this.setState({
