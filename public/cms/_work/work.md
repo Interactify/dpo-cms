@@ -13,9 +13,10 @@ text: >-
   and audio branding for advertising, film, trailers, art and video games.
 
 
-  At DPO Sound Design we strive to surpass our clients expectations. For info
-  and pricing, please get in touch for a chat and a personal quote.
+  At DPO Sound Design we strive to surpass our clients expectations. For more
+  information, please get in touch for a chat about future collaborations.
 ---
+
 
 
 
