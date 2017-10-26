@@ -1,9 +1,11 @@
 ---
-title: Sound Design<br>'Engines'
+title: Sound Design<br>Engines
 description: Music & Sound Design
 image: /cms/images/Engines Small.jpg
 vimeoID: '234134979'
+showinslider: true
 ---
+
 
 
 
