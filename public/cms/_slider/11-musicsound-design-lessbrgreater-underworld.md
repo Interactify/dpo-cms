@@ -1,9 +1,11 @@
 ---
-title: Sound Design<br>'Underworld'
+title: Sound Design<br>Underworld
 description: Music & Sound Design
 image: /cms/images/Underworld Small.jpg
 vimeoID: '234137763'
+showinslider: true
 ---
+
 
 
 
