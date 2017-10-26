@@ -3,8 +3,9 @@ title: Ident<br>Terra
 description: Music & Sound Design
 image: /cms/images/Terra Small.jpg
 vimeoID: '234137452'
-showinslider: true
+showinslider: false
 ---
+
 
 
 
