@@ -1,9 +1,10 @@
 ---
 title: Original Music<br>Jaguar
-description: Kalimbas and Upbeat Percussion
+description: Organic Dance Music
 image: /cms/images/Jaguar.jpg
 vimeoID: '239981342'
 showinslider: true
 ---
+
 
 
