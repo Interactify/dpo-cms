@@ -60,6 +60,7 @@ class Footer extends Component {
                         <a href="https://www.facebook.com/dposounddesign/" target="_blank"><img src="images/facebook.svg" alt="facebook"/></a>
                         <a href="https://www.linkedin.com/in/dposounddesign/" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn"/></a>
                         <a href="https://vimeo.com/dposounddesign" target="_blank"><img src="images/vimeo.svg" alt="Vimeo"/></a>
+                        <a href="https://soundcloud.com/dposounddesign" target="_blank"><img src="images/soundcloud.svg" alt="Soundcloud"/></a>
                     </div>
                 </div>
             </Foot>
