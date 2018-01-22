@@ -11,11 +11,8 @@ text: >-
 
   DPO Sound Design specialises in producing cinematic music, modern sound design
   and audio branding for advertising, film, trailers, art and video games.
-
-
-  At DPO Sound Design we strive to surpass our clients expectations. For more
-  information, please get in touch for a chat about future collaborations.
 ---
+
 
 
 
