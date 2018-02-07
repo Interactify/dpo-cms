@@ -9,8 +9,9 @@ text: >-
   sound design and audio post production for advertising and film. We produce
   custom music across all genres - from intimate piano melodies to futuristic
   electronics and heavy orchestral percussion, fusing music and sound design
-  into modern sonic storytelling.
+  into unified sonic storytelling.
 ---
+
 
 
 
