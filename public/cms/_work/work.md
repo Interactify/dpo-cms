@@ -3,11 +3,15 @@ title: Studio
 subtitle: Contemporary and Innovative
 image: /cms/images/MicSmall.jpg
 text: >-
-  DPO Sound Design is a Copenhagen-based studio focusing on  contemporary music
-  production, audio branding and innovative sound design for advertising and
-  film. The studio was founded in 2017 by Daniel Porcelli who holds a Bachelor’s
-  degree in Sound Design and Media Sonic Communication.
+  DPO Sound Design is a Copenhagen-based studio founded in 2017 by Daniel
+  Porcelli, a qualified sound designer with a Bachelor’s Degree in Media Sonic
+  Communication. We specialize in contemporary music production, innovative
+  sound design and audio post production for advertising and film. We compose
+  and produce music across all genres - from intimate piano melodies and
+  futuristic electronics to heavy orchestral percussion, fusing music and sound
+  design into modern sonic storytelling.
 ---
+
 
 
 
