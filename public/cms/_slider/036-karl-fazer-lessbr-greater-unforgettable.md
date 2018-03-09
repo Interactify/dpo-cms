@@ -1,10 +1,13 @@
 ---
-title: Karl Fazer<br>Unforgettable
-description: Sound Design (DPO x Sound Indian)
+title: Karl Fazer
+description: >-
+  Commercial︱Sound Design by Daniel Porcelli (In collaboration with Sound
+  Indian)
 image: /cms/images/Skærmbillede 2018-01-17 kl. 18.10.47.png
 vimeoID: '214193890'
-showinslider: false
+showinslider: true
 ---
+
 
 
 
