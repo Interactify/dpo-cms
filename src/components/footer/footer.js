@@ -50,10 +50,10 @@ class Footer extends Component {
                 <div className="foot-container">
                     <div className="contact-text">
                         <img src="images/logo4-dashed-black.svg" style={{width: 80, height: 80}} alt="logo" />
-                        mail@dposounddesign.com <br />
+                        MAIL@DPOSOUNDDESIGN.COM <br />
                         +45 40 98 74 40<br />
-                        Prinsessegade 3A, 2.TH. <br />
-                        1422 Copenhagen K, Denmark<br />
+                        PRINSESSEGADE 3A, 2.TH. <br />
+                        1422 COPENHAGEN K, DENMARK<br />
                         VAT: DK38274716
                     </div>
                     <div className="social">
