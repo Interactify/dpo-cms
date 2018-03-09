@@ -3,10 +3,10 @@ title: A New Sound Agency
 subtitle: Already 55 millions views and counting...
 image: /cms/images/Titan.jpg
 text: >-
-  DPO Sound Agency is a Copenhagen-based creative music and sound design agency.
+  DP Sound Agency is a Copenhagen-based creative music and sound design agency.
 
 
-  At DPO Sound Agency, we combine years of experience with artistic vision,
+  At DP Sound Agency, we combine years of experience with artistic vision,
   attention to details and a total of five Bachelor’s Degrees in Media Sonic
   Communication.
 
@@ -20,6 +20,7 @@ text: >-
   are rapidly establishing a reputation as a go-to agency for excellent quality
   sound production for digital media.
 ---
+
 
 
 
