@@ -53,7 +53,7 @@ class Footer extends Component {
                         MAIL@DPOSOUNDDESIGN.COM <br />
                         +45 40 98 74 40<br />
                         PRINSESSEGADE 3A, 2.TH. <br />
-                        1422 COPENHAGEN K, DENMARK<br />
+                        DK - 1422 COPENHAGEN<br />
                         VAT: DK38274716
                     </div>
                     <div className="social">
