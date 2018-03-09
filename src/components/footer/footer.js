@@ -52,8 +52,8 @@ class Footer extends Component {
                         <img src="images/logo4-dashed-black.svg" style={{width: 80, height: 80}} alt="logo" />
                         mail@dposounddesign.com <br />
                         +45 40 98 74 40<br />
-                        Valdemarsgade 19B <br />
-                        1665 Copenhagen V, Denmark<br />
+                        Prinsessegade 3A, 2.TH. <br />
+                        1422 Copenhagen K, Denmark<br />
                         VAT: DK38274716
                     </div>
                     <div className="social">
