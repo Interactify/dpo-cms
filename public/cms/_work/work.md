@@ -13,13 +13,14 @@ text: >-
 
   Our talented team of five unique composers and sound designers offers
   contemporary music production, innovative sound design and audio post
-  production for commercials, television, film.
+  production for commercials, television and film.
 
 
   With a total of more than 55 million views across social media platforms, we
-  are rapidly establishing a reputation as a go-to agency for excellent quality
-  sound production for digital media.
+  are rapidly establishing a reputation as a go-to agency for high quality sound
+  production for digital media.
 ---
+
 
 
 
