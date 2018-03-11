@@ -19,7 +19,13 @@ text: >-
   With a total of more than 55 million views across social media platforms, we
   are rapidly establishing a reputation as a go-to agency for high quality sound
   production for digital media.
+
+
+  We've been involved in projects for: Lego, Tivoli, Louisiana Museum of Modern
+  Art, SMK National Gallery of Denmark, Copenhagen Airport, University of
+  Copenhagen, Ecco, Danish Broadcasting Corporation and many more.
 ---
+
 
 
 
