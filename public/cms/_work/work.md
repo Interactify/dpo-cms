@@ -21,10 +21,11 @@ text: >-
   production for digital media.
 
 
-  We've been involved in projects for: Lego, Tivoli, Louisiana Museum of Modern
+  We've been involved in projects for: LEGO, Tivoli, Louisiana Museum of Modern
   Art, SMK National Gallery of Denmark, Copenhagen Airport, University of
   Copenhagen, Ecco, Danish Broadcasting Corporation and many more.
 ---
+
 
 
 
