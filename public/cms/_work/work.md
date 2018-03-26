@@ -11,9 +11,8 @@ text: >-
   Communication.
 
 
-  Our talented team of five unique composers and sound designers offers
-  contemporary music production, innovative sound design and audio post
-  production for commercials, television and film.
+  We offer contemporary music production, innovative sound design and audio post
+  production for commercials, games, television and film.
 
 
   With a total of more than 55 million views across social media platforms, we
@@ -21,10 +20,12 @@ text: >-
   production for digital media.
 
 
-  We've been involved in projects for: LEGO, Tivoli, Louisiana Museum of Modern
+  Our talented team of five unique composers and sound designers have been
+  involved in projects for: LEGO, Tivoli, McDonalds, Louisiana Museum of Modern
   Art, SMK National Gallery of Denmark, Copenhagen Airport, University of
   Copenhagen, Ecco, Danish Broadcasting Corporation and many more.
 ---
+
 
 
 
