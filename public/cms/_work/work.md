@@ -3,7 +3,8 @@ title: A New Sound Agency
 subtitle: Already 55 millions views and counting...
 image: /cms/images/Titan.jpg
 text: >-
-  DP Sound Agency is a Copenhagen-based creative music and sound design agency.
+  DP Sound Agency is a Copenhagen-based creative music and sound design agency
+  established in 2018.
 
 
   At DP Sound Agency, we combine years of experience with artistic vision,
@@ -23,8 +24,9 @@ text: >-
   Our talented team of five unique composers and sound designers have been
   involved in projects for: LEGO, Tivoli, McDonalds, Louisiana Museum of Modern
   Art, SMK National Gallery of Denmark, Copenhagen Airport, University of
-  Copenhagen, Ecco, Danish Broadcasting Corporation and many more.
+  Copenhagen, Ecco, DBU, Danish Broadcasting Corporation and many more.
 ---
+
 
 
 
